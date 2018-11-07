@@ -1,0 +1,227 @@
+<!--reset w 980/ center hack-->
+
+/*全部共用 start*/
+#wrap{
+	position:absolute;
+	}
+#container_980{
+	position:relative;
+	margin:0 auto;
+	width:980px;
+	}
+#contain{
+	}
+.clearfloat{
+	clear:both;
+	}
+#top{
+	float:left;
+	z-index:3;
+	margin-left:-12px;
+	/*margin-top:4px;
+	margin-left:-4px;*/
+	}
+	
+#content{
+	z-index:1;
+	position:relative;
+	top:-50px;
+	margin-bottom:-52px;
+	}
+	
+.content0 .content1 .content2 .content3{
+	float:left;
+	}
+
+.content0{padding-bottom:35px;}
+.content1{padding-bottom:36px;}
+
+#bottom{
+	float:left;
+	width:100%;
+	z-index:3;
+	}
+
+#footer{
+	position: relative;	
+	/*margin-top: -64px; /* negative value of footer height */
+	margin-top: 0 auto;
+	height: 64px;
+	clear:both;
+	} 
+	
+#footer{
+	background:#424242;
+}
+.foot_mail{
+	padding:10px 0;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.8em;
+	text-align:center;
+}
+.foot_mail p{
+	letter-spacing:2px;
+	width:100px;
+	margin:0 auto;
+	color:#cccccc;
+	border: 1px solid #CCCCCC;
+    border-radius: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	height: 14px;
+}
+.foot_mail p a ,.fmB1 a{
+	color:#cccccc;
+}
+.foot_mail p a:hover ,.fmB1 a:hover{
+	color:#FF7600;
+}
+.copyright{
+	position:relative;
+	bottom:0;
+	line-height:20px;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.65em;
+	text-align:center;
+	color:#cccccc;
+	border-top:1px solid #6b6b6b;
+	letter-spacing:1px;
+}
+/*全部共用 end*/
+
+/*box start*/
+.box_wrap{
+	position:absolute;
+	z-index:4; 
+	display:block; 
+	width:100%; 
+	height:100%; 
+	/*opacity: 0.3;*/
+	display:none;
+	}
+	
+.box{
+	position: relative;
+	width:1027px;	
+	top: 20px;
+	margin:0 auto;
+	background-color:#F9F9F9; 
+	padding:15px;
+	border-radius:4px;
+	z-index:4;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	}
+.boxbg{
+	position:absolute;
+	/*display:block; */
+	width:100%; 
+	height:100%; 
+	opacity: 0.3;
+	background-color:#000000;
+	z-index:3;
+	top:0px;
+	}
+
+.box_inner{
+	position:relative;
+	width:auto;
+	height:auto;
+	margin:20px;
+	/*height:800px;JQ判定*/
+	overflow-y:scroll;
+	overflow-x:hidden;
+	}	
+	
+.bank_cont_main {
+padding: 0px 24px;
+}
+
+.bank_cont_main li {
+line-height: 26px;
+font-size: 16px;
+color: #000000;
+font-weight: normal;
+font-family: 'Open Sans', sans-serif, "微軟正黑體";
+padding: 0 1em;
+margin-left: 1em;
+text-indent: -1em;
+}
+
+#2015lunar{
+	width:1000px;
+	position:absolute;	
+	margin:0 auto;
+	z-index:4; 
+	}
+
+/*box end*/
+
+/*content內容*/
+
+/*0 part*/.content0  {position:relative;height:787px;}
+#righttop	 {width:180px; height:149px; position:absolute; top:80px;	left:106px; cursor: pointer; }
+.content0_0  {width:600px; height:340px; position:absolute; top:0px;    left:0px;   cursor: pointer; }
+.content0_1  {width:364px; height:341px; position:absolute; top:0px;    left:601px; cursor: pointer; }
+.content0_2  {width:490px; height:125px; position:absolute; top:341px;  left:0px;   cursor: pointer; }
+.content0_3  {width:490px; height:125px; position:absolute; top:341px;  left:490px; cursor: pointer; }
+.content0_4  {width:245px; height:338px; position:absolute; top:450px;  left:0px;   cursor: pointer; }
+.content0_5  {width:245px; height:338px; position:absolute; top:450px;  left:245px; cursor: pointer; }
+.content0_6  {width:245px; height:338px; position:absolute; top:450px;  left:490px; cursor: pointer; }
+.content0_7  {width:245px; height:338px; position:absolute; top:450px;  left:735px; cursor: pointer; }
+
+
+.content1  {position:relative;height:1637px;}
+/*1_1 part*/.content1_1  {position:relative;height:841px;}/*980*841*/
+.content1_1_0{width:395px; height:55px;  position:absolute; top:19px;   left:296px; cursor: pointer; }
+.content1_1_1{width:245px; height:338px; position:absolute; top:85px;   left:0px;   cursor: pointer; }
+.content1_1_2{width:245px; height:338px; position:absolute; top:85px;   left:245px; cursor: pointer; }
+.content1_1_3{width:245px; height:338px; position:absolute; top:85px;   left:490px; cursor: pointer; }
+.content1_1_4{width:245px; height:338px; position:absolute; top:85px;   left:735px; cursor: pointer; }
+.content1_1_5{width:245px; height:338px; position:absolute; top:423px;  left:0px;   cursor: pointer; }
+.content1_1_6{width:245px; height:338px; position:absolute; top:423px;  left:245px; cursor: pointer; }
+.content1_1_7{width:245px; height:338px; position:absolute; top:423px;  left:490px; cursor: pointer; }
+.content1_1_8{width:245px; height:338px; position:absolute; top:423px;  left:735px; cursor: pointer; }
+.content1_1_9{width:99px;  height:18px;  position:absolute; top:779px;  left:866px; cursor: pointer; }
+
+/*1_2 part*/.content1_2  {position:relative;height:796px;}/*980*796*/
+.content1_2_0{width:481px; height:65px;  position:absolute; top:849px;  left:249px; cursor: pointer; }
+.content1_2_1{width:245px; height:338px; position:absolute; top:926px;  left:0px;   cursor: pointer; }
+.content1_2_2{width:245px; height:338px; position:absolute; top:926px;  left:245px; cursor: pointer; }
+.content1_2_3{width:245px; height:338px; position:absolute; top:926px;  left:490px; cursor: pointer; }
+.content1_2_4{width:245px; height:338px; position:absolute; top:926px;  left:735px; cursor: pointer; }
+.content1_2_5{width:245px; height:338px; position:absolute; top:1264px; left:0px;   cursor: pointer; }
+.content1_2_6{width:245px; height:338px; position:absolute; top:1264px; left:245px; cursor: pointer; }
+.content1_2_7{width:245px; height:338px; position:absolute; top:1264px; left:490px; cursor: pointer; }
+.content1_2_8{width:245px; height:338px; position:absolute; top:1264px; left:735px; cursor: pointer; }
+.content1_2_9{width:99px;  height:18px;  position:absolute; top:1620px; left:866px; cursor: pointer; }
+
+
+.content2  {position:relative;height:1673px;}
+/*2_1 part*/.content2_1  {position:relative;height:841px;}/*980*841*/
+.content2_1_0{width:350px; height:53px;  position:absolute; top:17px;   left:348px; cursor: pointer; }
+.content2_1_1{width:245px; height:338px; position:absolute; top:85px;   left:0px;   cursor: pointer; }
+.content2_1_2{width:245px; height:338px; position:absolute; top:85px;   left:245px; cursor: pointer; }
+.content2_1_3{width:245px; height:338px; position:absolute; top:85px;   left:490px; cursor: pointer; }
+.content2_1_4{width:245px; height:338px; position:absolute; top:85px;   left:735px; cursor: pointer; }
+.content2_1_5{width:245px; height:338px; position:absolute; top:423px;  left:0px;   cursor: pointer; }
+.content2_1_6{width:245px; height:338px; position:absolute; top:423px;  left:245px; cursor: pointer; }
+.content2_1_7{width:245px; height:338px; position:absolute; top:423px;  left:490px; cursor: pointer; }
+.content2_1_8{width:245px; height:338px; position:absolute; top:423px;  left:735px; cursor: pointer; }
+.content2_1_9{width:99px;  height:18px;  position:absolute; top:779px;  left:866px; cursor: pointer; }
+
+/*2_2 part*/.content2_2  {position:relative;height:832px;}/*980*832*/
+.content2_2_0{width:612px; height:42px;  position:absolute; top:865px;  left:204px; cursor: pointer; }
+.content2_2_1{width:245px; height:338px; position:absolute; top:926px;  left:0px;   cursor: pointer; }
+.content2_2_2{width:245px; height:338px; position:absolute; top:926px;  left:245px; cursor: pointer; }
+.content2_2_3{width:245px; height:338px; position:absolute; top:926px;  left:490px; cursor: pointer; }
+.content2_2_4{width:245px; height:338px; position:absolute; top:926px;  left:735px; cursor: pointer; }
+.content2_2_5{width:245px; height:338px; position:absolute; top:1264px; left:0px;   cursor: pointer; }
+.content2_2_6{width:245px; height:338px; position:absolute; top:1264px; left:245px; cursor: pointer; }
+.content2_2_7{width:245px; height:338px; position:absolute; top:1264px; left:490px; cursor: pointer; }
+.content2_2_8{width:245px; height:338px; position:absolute; top:1264px; left:735px; cursor: pointer; }
+.content2_2_9{width:99px;  height:18px;  position:absolute; top:1620px; left:866px; cursor: pointer; }
+
+/*3 part*/.content3  {position:relative;height:53px;}
+.content3_1  {width:66px;  height:28px;  position:absolute; top:5px;  left:455px;   cursor: pointer; }
+
+/*content end*/

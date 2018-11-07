@@ -1,0 +1,199 @@
+<!--reset w 980/ center hack-->
+
+/*全部共用 start*/
+html, body {
+
+}
+	
+/*解決fixed的問題 start*/
+/*html{
+	overflow: hidden;
+	}
+	
+body{
+	margin: 0px;
+    overflow-y: scroll;
+    height: 100%;
+	}*/
+/*解決fixed的問題 end*/
+#bd_wrap{
+	min-width:980px;
+	width:100%;	
+	overflow:hidden;
+	}
+#container_980{
+	position:relative;
+	margin:0 auto;
+	width:980px;
+	}
+#contain{
+	}
+.clearfloat{
+	clear:both;
+	}
+#top{
+	float:left;
+	z-index:3;
+	margin-left:-12px;
+	}
+	
+.headline{
+	z-index:2;	
+	}
+	
+#content{
+	z-index:1;
+	position:relative;
+	}
+
+#content_wrap{
+	width:100%;
+	margin-top:-50px;
+	}
+
+#bottom{
+	margin-top:-82px;
+	float:left;
+	width:100%;
+	z-index:3;
+	}
+
+#footer{
+	position: relative;	
+	margin-top: 0 auto;
+	height: 82px;
+	clear:both;
+	} 
+	
+#footer{
+	background:#424242;
+}
+.foot_mail{
+	padding:10px 0;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.8em;
+	text-align:center;
+}
+.foot_mail p{
+	letter-spacing:2px;
+	width:100px;
+	margin:0 auto;
+	color:#cccccc;
+	border: 1px solid #CCCCCC;
+    border-radius: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	height: 14px;
+}
+.foot_mail p a ,.fmB1 a{
+	color:#cccccc;
+}
+.foot_mail p a:hover ,.fmB1 a:hover{
+	color:#FF7600;
+}
+.copyright{
+	position:relative;
+	bottom:0;
+	line-height:20px;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.65em;
+	text-align:center;
+	color:#cccccc;
+	border-top:1px solid #6b6b6b;
+	letter-spacing:1px;
+}
+/*全部共用 end*/
+
+
+/*fb icon start*/
+#fb_icon{
+	position:relative;
+	width:100%;
+	height:20px;
+	margin-left:220px;
+	margin-top:-50px;
+	color:#FFF;
+	}	
+#fb_like{
+	float:left;
+	width:40px;
+	height:20px;
+	margin-bottom:3px;
+	}
+#fb_share{
+	margin-top:3px;
+	/*float:left;*/
+	width:40px;
+	height:20px;
+	}
+/*fb icon end*/
+
+/*content內容*/
+
+
+/*content內容*/
+
+
+/*margin-top:0px;	margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;*/
+/*0 part*/
+#content0			{	background-image:url(../02_img/page/banner.png);	background-repeat:no-repeat;	height:392px;	margin:0 auto;	position:relative;	width:980px;	z-index:1;}
+.title				{	background-repeat:no-repeat;	cursor:pointer;	float:left;	height:54px;	margin-bottom:62px;	margin-top:227px;	position:relative;	width:283px;}
+#title_01			{	background-image:url(../02_img/page/title/title_01.png);	margin-left:35px;}
+#title_02			{	background-image:url(../02_img/page/title/title_02.png);	margin-left:31px;}
+#title_03			{	background-image:url(../02_img/page/title/title_03.png);	margin-left:31px;	margin-right:32px;}
+
+/*1 part*/
+#content1			{	height:2004px;	/*overflow:hidden;*/	position:relative;	width:980px;}
+.page				{	float:left;	position:relative;	width:980px;}
+.title_b			{	background-repeat:no-repeat;	height:39px;	margin-bottom:9px;	width:980px;}
+.item				{	background-repeat:no-repeat;	float:left;}
+.item_1				{	height:537px;	margin-bottom:0px;	margin-left:0px;	margin-right:0px;	margin-top:0px;	width:303px;}
+.item_2				{	height:269px;	margin-bottom:0px;	margin-left:0px;	margin-right:0px;	margin-top:0px;	width:226px;}
+.item_3				{	height:269px;	margin-bottom:0px;	margin-left:0px;	margin-right:0px;	margin-top:0px;	width:226px;}
+.item_4				{	height:269px;	margin-bottom:0px;	margin-left:0px;	margin-right:0px;	margin-top:0px;	width:225px;}
+.item_5				{	height:268px;	margin-bottom:0px;	margin-left:0px;	margin-right:0px;	margin-top:0px;	width:226px;}
+.item_6				{	height:268px;	margin-bottom:0px;	margin-left:0px;	margin-right:0px;	margin-top:0px;	width:226px;}
+.item_7				{	height:268px;	margin-bottom:0px;	margin-left:0px;	margin-right:0px;	margin-top:0px;	width:225px;}
+.more				{	background-image:url(../02_img/page/more.png);	background-repeat:no-repeat;	bottom:0px;	height:48px;	position:absolute;	right:2px;	width:66px;}
+#page1				{	height:643px;	margin-bottom:35px;}
+	#title_01_b		{	background-image:url(../02_img/page/title/title_01_b.png);}
+	/*part1 item start*/
+	#item_1_1		{	background-image:url(../02_img/page/item/01_him/01.jpg);}
+	#item_1_2		{	background-image:url(../02_img/page/item/01_him/02.jpg);}
+	#item_1_3		{	background-image:url(../02_img/page/item/01_him/03.jpg);}
+	#item_1_4		{	background-image:url(../02_img/page/item/01_him/04.jpg);}
+	#item_1_5		{	background-image:url(../02_img/page/item/01_him/05.jpg);}
+	#item_1_6		{	background-image:url(../02_img/page/item/01_him/06.jpg);}
+	#item_1_7		{	background-image:url(../02_img/page/item/01_him/07.jpg);}
+	/*part1 item end*/
+	
+#page2				{	height:643px;	margin-bottom:39px;}
+	#title_02_b		{	background-image:url(../02_img/page/title/title_02_b.png);}
+	/*part2 item start*/
+	#item_2_1		{	background-image:url(../02_img/page/item/02_her/01.jpg);}
+	#item_2_2		{	background-image:url(../02_img/page/item/02_her/02.jpg);}
+	#item_2_3		{	background-image:url(../02_img/page/item/02_her/03.jpg);}
+	#item_2_4		{	background-image:url(../02_img/page/item/02_her/04.jpg);}
+	#item_2_5		{	background-image:url(../02_img/page/item/02_her/05.jpg);}
+	#item_2_6		{	background-image:url(../02_img/page/item/02_her/06.jpg);}
+	#item_2_7		{	background-image:url(../02_img/page/item/02_her/07.jpg);}
+	/*part2 item end*/
+	
+#page3				{	height:643px;	margin-bottom:0px;}
+	#title_03_b		{	background-image:url(../02_img/page/title/title_03_b.png);}
+	/*part3 item start*/
+	#item_3_1		{	background-image:url(../02_img/page/item/03_kid/01.jpg);}
+	#item_3_2		{	background-image:url(../02_img/page/item/03_kid/02.jpg);}
+	#item_3_3		{	background-image:url(../02_img/page/item/03_kid/03.jpg);}
+	#item_3_4		{	background-image:url(../02_img/page/item/03_kid/04.jpg);}
+	#item_3_5		{	background-image:url(../02_img/page/item/03_kid/05.jpg);}
+	#item_3_6		{	background-image:url(../02_img/page/item/03_kid/06.jpg);}
+	#item_3_7		{	background-image:url(../02_img/page/item/03_kid/07.jpg);}
+	/*part3 item end*/
+
+	
+/*2 part*/
+#content2			{	/*background-image:url(../02_img/page/05.png);*/	background-repeat:no-repeat;	height:164px;	overflow:hidden;	position:relative;	width:980px;}
+.gotop				{	cursor:pointer;	height:49px;	margin-bottom:92px;	margin-left:441px;	margin-right:456px;	margin-top:24px;	position:relative;	width:83px;}
+#gotop				{	background-image:url(../02_img/page/top.png);	background-repeat:no-repeat;}
+/*content end*/

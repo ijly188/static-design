@@ -1,0 +1,51 @@
+/*box special版 start*/
+.box_wrap		{display:none;	height:100%;	left: 0px;	overflow-y:scroll;	position: fixed;	top: 0px;	width:100%;	z-index:4;}
+.box			{background-repeat: no-repeat;	background-position: 0px 0px;	border-radius:4px;	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);	height:618px;	margin:-309px auto 0px auto;	padding:0px;	position: relative;		top:50%;	width:1000px;	z-index:4;}	
+.box_close		{cursor:pointer;	margin-top:5px;	position:absolute;	right:5px;	z-index:5;}
+.box_inner		{background-color: #FFF;	border-radius:4px;	height:100%;	margin:auto;	position:relative;	width:100%;}	
+.boxbg			{background-color:#000000;	/*display:block; */	height:100%;	opacity: 0.3;	position:absolute;	top:0px;	width:100%;	z-index:3;}	
+.poppage_content{height:90%;	margin:30px;	overflow-x:hidden;	overflow-y:scroll;	position:relative;	width:93%;}
+#poppage_1, #poppage_2, #poppage_3, #poppage_4, #poppage_5, #poppage_6, #poppage_7, #poppage_8{	display:none;	height:100%;	margin:0 auto;	position:absolute;	width:100%;	z-index:4; 	}
+
+
+.fontset{
+line-height: 26px;
+font-size: 16px;
+color: #000000;
+font-weight: normal;
+font-family: 'Open Sans', sans-serif, "微軟正黑體";
+padding: 0 1em;
+margin-left: 1em;
+text-indent: -1em;
+}
+.banklogo					{margin-left:1em;	padding:1em;}
+.activecontent				{display:block;	height:auto;	margin-bottom:1em;	width:970px;}
+.activecontent_title		{display:block;	}
+.activecontent_list			{display:block;	width:830px;	text-align: justify;	text-justify:inter-ideograph;}
+.activecontent_list_inner	{display:block;	width:800px;	text-align: justify;	text-justify:inter-ideograph;}
+.activecode_time			{color:#FF7600;	}
+
+.activenotice				{height:auto;	display:block;	margin-bottom:2em;	width:970px;	}
+.activenotice_title			{display:block;}
+.activenotice_list			{display:block;	width:830px;	text-align: justify;	text-justify:inter-ideograph;}
+.activenotice_list_inner	{display:block;	width:800px;	text-align: justify;	text-justify:inter-ideograph;}
+#activenotice_last_4		{text-indent:0em;}
+.warnings					{display:block;	font-size:28px;	font-weight:bolder;	margin:1em 0em;}
+.link_bank					{color:#FF7600;	display:inline;	font-weight: bold;}
+
+#acttitle1, #acttitle2, #acttitle3, #acttitle4, #acttitle5, #activecode_1, #noticetitle1{margin-left:0em;	}
+
+span a:hover {display:inline;	color:#FF7600;}
+
+.giftpic	{float:left;	width:100%;}
+.giftpic img{height:406px;	width:888px;}
+.acttitle	{font-size:32px;	margin:0px 0px 18px 48px;}
+.slogan		{font-size:16px;	margin:-31px 0px 0px 349px;	position:absolute;}
+.pic_notice	{display: table;	font-size:12px;	margin:0 auto;}
+
+.gotogiftpage{color:#6B6B6B;	display:block;	float:right;	font-size:24px;	font-weight:700;	margin:0px 18px 0px 0px;}
+.gotogiftpage a:link{color:#FF7600;}
+.gotogiftpage a:visited{color:#FF7600;}
+.transport	{text-indent:0em;}
+em			{font-weight:600;}
+/*box end*/

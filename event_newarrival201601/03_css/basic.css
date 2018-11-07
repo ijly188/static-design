@@ -1,0 +1,102 @@
+/*全部共用 start*/
+html, body {
+}
+	
+/*解決fixed的問題 start*/
+/*html{
+	overflow: hidden;
+	}
+	
+body{
+	margin: 0px;
+    overflow-y: scroll;
+    height: 100%;
+	}*/
+/*解決fixed的問題 end*/
+#bd_wrap{
+	width:100%;	
+	overflow:hidden;
+	}
+#container_980{
+	position:relative;
+	margin:0 auto;
+	width:980px;
+	}
+#contain{
+	}
+.clearfloat{
+	clear:both;
+	}
+#top{
+	float:left;
+	z-index:3;
+	margin-left:-12px;
+	}
+	
+.headline{
+	z-index:2;	
+	}
+	
+#content{
+	z-index:1;
+	position:relative;
+	}
+
+#content_wrap{
+	width:100%;
+	margin-top:-50px;
+	}
+
+#bottom{
+	/*margin-top:-82px;*/
+	float:left;
+	width:100%;
+	z-index:3;
+	}
+
+#footer{
+	position: relative;	
+	margin-top: 0 auto;
+	height: 82px;
+	clear:both;
+	} 
+	
+#footer{
+	background:#424242;
+}
+.foot_mail{
+	padding:10px 0;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.8em;
+	text-align:center;
+}
+.foot_mail p{
+	letter-spacing:2px;
+	width:100px;
+	margin:0 auto;
+	color:#cccccc;
+	border: 1px solid #CCCCCC;
+    border-radius: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	height: 14px;
+}
+.foot_mail p a ,.fmB1 a{
+	color:#cccccc;
+}
+.foot_mail p a:hover ,.fmB1 a:hover{
+	color:#FF7600;
+}
+.copyright{
+	position:relative;
+	bottom:0;
+	line-height:20px;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.65em;
+	text-align:center;
+	color:#cccccc;
+	border-top:1px solid #6b6b6b;
+	letter-spacing:1px;
+}
+/*全部共用 end*/
+

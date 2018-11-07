@@ -1,0 +1,326 @@
+<!--reset w 980/ center hack-->
+
+/*全部共用 start*/
+html, body {
+
+}
+	
+/*解決fixed的問題 start*/
+/*html{
+	overflow: hidden;
+	}
+	
+body{
+	margin: 0px;
+    overflow-y: scroll;
+    height: 100%;
+	}*/
+/*解決fixed的問題 end*/
+#bd_wrap{
+	min-width:980px;
+	width:100%;	
+	overflow:hidden;
+	}
+#container_980{
+	position:relative;
+	margin:0 auto;
+	width:980px;
+	}
+#contain{
+	}
+.clearfloat{
+	clear:both;
+	}
+#top{
+	float:left;
+	z-index:3;
+	margin-left:-12px;
+	}
+	
+.headline{
+	z-index:2;	
+	}
+	
+#content{
+	z-index:1;
+	position:relative;
+	}
+
+#content_wrap{
+	width:100%;
+	margin-top:-50px;
+	}
+
+#bottom{
+	margin-top:-82px;
+	float:left;
+	width:100%;
+	z-index:3;
+	}
+
+#footer{
+	position: relative;	
+	margin-top: 0 auto;
+	height: 82px;
+	clear:both;
+	} 
+	
+#footer{
+	background:#424242;
+}
+.foot_mail{
+	padding:10px 0;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.8em;
+	text-align:center;
+}
+.foot_mail p{
+	letter-spacing:2px;
+	width:100px;
+	margin:0 auto;
+	color:#cccccc;
+	border: 1px solid #CCCCCC;
+    border-radius: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	height: 14px;
+}
+.foot_mail p a ,.fmB1 a{
+	color:#cccccc;
+}
+.foot_mail p a:hover ,.fmB1 a:hover{
+	color:#FF7600;
+}
+.copyright{
+	position:relative;
+	bottom:0;
+	line-height:20px;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.65em;
+	text-align:center;
+	color:#cccccc;
+	border-top:1px solid #6b6b6b;
+	letter-spacing:1px;
+}
+/*全部共用 end*/
+
+/*box start*/
+#plugin_buy{
+	left:50%;
+	position:absolute;
+	z-index:3;
+	width:490px;
+	height:77px;
+	}
+	
+#buybtn{
+	cursor:pointer;
+	margin-left:241px;
+	width:189px;
+	height:77px;
+	background-image:url(../02_img/page/buybtn/topfontbg.png);
+	}
+	
+#buybtn_color{
+	width:183px;
+	height:65px;
+	background-image:url(../02_img/page/buybtn/topfont.png);
+	display:none;
+	}
+	
+.box_wrap{
+	position:absolute;
+	z-index:4; 
+	display:block; 
+	width:100%; 
+	height:100%; 
+	display:none;
+	}
+	
+#rightscroll{
+	position:absolute;
+	right:-8.5px;
+	width:17px;
+	z-index:10;
+	}
+	
+#rightscroll_top{
+	width:17px;
+	height:16px;
+	background-image:url(../02_img/page/scroll/top.jpg);
+	}
+	
+#rightscroll_center{
+	background:#F0F0F0;
+	height:100%;
+	}
+	
+#rightscroll_bottom{
+	position:absolute;
+	width:17px;
+	height:16px;
+	background-image:url(../02_img/page/scroll/bottom.jpg);
+	bottom:0px;
+	}
+	
+.box{
+	position: relative;
+	width:1027px;	
+	top: 30px;
+	margin:0 auto;
+	background-color:#F9F9F9; 
+	padding:15px;
+	border-radius:4px;
+	z-index:4;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	}
+.boxbg{
+	position:absolute;
+	/*display:block; */
+	width:100%; 
+	height:100%; 
+	opacity: 0.3;
+	background-color:#000000;
+	z-index:3;
+	top:0px;
+	}
+	
+.box_close{
+	position:absolute;
+	z-index:5;
+	right:5px;
+	margin-top:-10px;
+	cursor:pointer;
+	}
+
+.box_inner{
+	position:relative;
+	width:auto;
+	height:auto;
+	margin:20px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	}	
+	
+.bank_cont_main {
+padding: 0px 24px;
+}
+
+.bank_cont_main li {
+line-height: 26px;
+font-size: 16px;
+color: #000000;
+font-weight: normal;
+font-family: 'Open Sans', sans-serif, "微軟正黑體";
+padding: 0 1em;
+margin-left: 1em;
+text-indent: -1em;
+/*左右對齊*/
+text-align: justify;
+text-justify:inter-ideograph;
+}
+
+#popover_1 #popover_2 #popover_3 #popover_4 #popover_5 #popover_6 #popover_7 #popover_8 #popover_9 #popover_10 #popover_11 #popover_12 #popover_13{
+	display:none;
+	width:1000px;
+	position:absolute;	
+	margin:0 auto;
+	z-index:4; 
+	}
+	
+.popwrap{
+	display:none;
+	height:715px;
+	position:relative;
+	width:970px;
+	}
+	
+.popwrap img{
+	height:715px;
+	width:970px;
+	}
+	
+.popover	{display:none;	position:absolute;}
+.pop_item_0	{height:298px;	margin-bottom:4px;	width:970px;}
+.pop_item_1	{height:413px;	float:left;	width:323px;}
+.pop_item_2	{height:413px;	float:left;	width:323px;}
+.pop_item_3	{height:413px;	float:left;	width:323px;}
+/*box end*/
+
+/*fb icon start*/
+#fb_icon{
+	position:relative;
+	width:100%;
+	height:20px;
+	margin-left:220px;
+	margin-top:-50px;
+	color:#FFF;
+	}	
+#fb_like{
+	float:left;
+	width:40px;
+	height:20px;
+	margin-bottom:3px;
+	overflow: hidden;
+	}
+#fb_share{
+	margin-top:3px;
+	/*float:left;*/
+	width:40px;
+	height:20px;
+	}
+	
+#fb_commtent{ 
+	background-color: #F7F7F7;
+    float: left;
+    margin-left: 46px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid;
+    border-radius: 7px;
+    -moz-border-radius: 25px;
+    border-color: #B5B1B1;
+	padding:10px;
+	position:relative;
+	width:960px;
+	}
+/*fb icon end*/
+
+/*skipbox start*/
+.skipcheckbox	{background-image:url(../02_img/page/skip/comment_bg.png);	background-repeat: no-repeat;	display:none;	height:131px;	left:50%;	margin-left:-60px;	margin-top:-65px;	position:absolute;	top:50%;	width:154px;	z-index: 4;}
+.status			{height:55px;	margin-left:8px;	margin-top:14px;	position:relative;	width:140px;}
+.num			{display:none;	height:23px;	margin-left:27px;	margin-top:2px;		position:relative;	width:29px;}
+.yesbtn			{cursor:pointer;	float:left;	margin-left:25px;	margin-top:12px;	height:22px;	position:relative;	width:44px;}
+.yesbtn:hover	{background-image:url(../02_img/page/skip/yesbtn_bg.png);	background-repeat:no-repeat;}
+.nobtn			{cursor:pointer;	float:left;	margin-left:16px;	margin-top:12px;	height:22px;	position:relative;	width:44px;}
+.nobtn:hover	{background-image:url(../02_img/page/skip/nobtn_bg.png);	background-repeat:no-repeat;}
+/*skipbox end*/
+/*content內容*/
+.youwin			{background-image:url(../02_img/page/youwin.png);	background-repeat: no-repeat;	display:none;	height:65px;    margin-left: -60px;	margin-top:-65px;	width:154px;}
+.scroe			{bottom:100px;	background-image:url(../02_img/page/score/0.png);	background-repeat:no-repeat;	height:140px;	left:50%;	margin-left:510px;	position:fixed;	width:75px;}
+.skip			{display:none;	cursor:pointer;	height:29px;	margin-bottom:9px;	margin-top:27px;	width:75px;}
+.skipfirst		{display:block;	cursor:pointer;	height:29px;	margin-bottom:9px;	margin-top:27px;	width:75px;}
+.gotop			{cursor:pointer;	height:75px;	position:absolute;	top:65px;	width:75px;}
+#bd_wrap		{background-image:url(../02_img/bg.jpg);	background-position:50% 0%;	background-repeat:no-repeat;}
+/*margin-top:0px;	margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;*/
+.page			{background-repeat:no-repeat;}
+#content0		{height:420px;	margin:0 auto;	position:relative;	width:980px;}
+
+#content1		{height:1690px;	margin:0 auto;	position:relative;	width:980px;}
+.pic			{float:left;	height:795px;	position:relative;	width:980px;}
+.circle			{background-image:url(../02_img/page/click.png);}
+.castle			{background-position:-758px -129px;	height:62px;	left:758px;	position:absolute;	top:129px;	width:64px;}
+.dvd			{background-position:-736px -236px;	height:48px;	left:736px;	position:absolute;	top:236px;	width:94px;}
+.coffeecup		{background-position:-455px -246px;	height:82px;	left:455px;	position:absolute;	top:246px;	width:75px;}
+.carbu			{background-position:-686px -271px;	height:46px;	left:686px;	position:absolute;	top:271px;	width:50px;}
+.lightsword		{background-position:-664px -344px;	height:47px;	left:664px;	position:absolute;	top:344px;	width:236px;}
+.colorbook		{background-position:-350px -381px;	height:43px;	left:350px;	position:absolute;	top:381px;	width:179px;}
+.headphone		{background-position:-171px -415px;	height:95px;	left:171px;	position:absolute;	top:415px;	width:139px;}
+.microsoft		{background-position:-597px -417px;	height:76px;	left:597px;	position:absolute;	top:417px;	width:70px;}
+.stationery		{background-position:-780px -447px;	height:50px;	left:780px;	position:absolute;	top:447px;	width:50px;}
+.cup			{background-position:-435px -468px;	height:59px;	left:435px;	position:absolute;	top:468px;	width:63px;}
+.laserkeyboard	{background-position:-374px -487px;	height:40px;	left:374px;	position:absolute;	top:487px;	width:52px;}
+.usb			{background-position:-718px -489px;	height:38px;	left:718px;	position:absolute;	top:489px;	width:39px;}
+.pillow			{background-position:-723px -672px;	height:77px;	left:723px;	position:absolute;	top:672px;	width:136px;}
+.situation		{background-repeat: no-repeat;	display:none;	height:65px;	margin-top:-65px;	width:154px;}
+/*content end*/

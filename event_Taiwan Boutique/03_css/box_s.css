@@ -1,0 +1,31 @@
+/*box special版 start*/
+.box_wrap		{display:none;	height:100%;	left: 0px;	overflow-y:scroll;	position: fixed;	top: 0px;	width:100%;	z-index:4;}
+.box			{background-repeat: no-repeat;	background-position: 0px 0px;	border-radius:4px;	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);	height:618px;	margin:-309px auto 0px auto;	padding:0px;	position: relative;		top:50%;	width:1000px;	z-index:4;}	
+.box_close		{cursor:pointer;	margin-top:5px;	position:absolute;	right:5px;	z-index:5;}
+.box_inner		{height:100%;	margin:auto;	position:relative;	width:100%;}	
+.boxbg			{background-color:#000000;	/*display:block; */	height:100%;	opacity: 0.3;	position:absolute;	top:0px;	width:100%;	z-index:3;}	
+.poppage_content{height:100%;	width:100%;}
+#poppage_1, #poppage_2, #poppage_3, #poppage_4, #poppage_5, #poppage_6, #poppage_7, #poppage_8, #poppage_9{	display:none;	height:100%;	margin:0 auto;	position:absolute;	width:100%;	z-index:4; 	}
+/*box end*/
+
+/*
+#poppage_1		{background-image:url(../02_img/page/page1_bg.png);}
+#poppage_2		{background-image:url(../02_img/page/page2_bg.png);}
+#poppage_3		{background-image:url(../02_img/page/page3_bg.png);}
+#poppage_4		{background-image:url(../02_img/page/page4_bg.png);}
+#poppage_5		{background-image:url(../02_img/page/page5_bg.png);}
+#poppage_6		{background-image:url(../02_img/page/page6_bg.png);}
+#poppage_7		{background-image:url(../02_img/page/page7_bg.png);}
+#poppage_8		{background-image:url(../02_img/page/page8_bg.png);}
+
+#poppage_1 .poppage_content{background-image:url(../02_img/page/page1.png);}
+#poppage_2 .poppage_content{background-image:url(../02_img/page/page2.png);}
+#poppage_3 .poppage_content{background-image:url(../02_img/page/page3.png);}
+#poppage_4 .poppage_content{background-image:url(../02_img/page/page4.png);}
+#poppage_5 .poppage_content{background-image:url(../02_img/page/page5.png);}
+#poppage_6 .poppage_content{background-image:url(../02_img/page/page6.png);}
+#poppage_7 .poppage_content{background-image:url(../02_img/page/page7.png);}
+#poppage_8 .poppage_content{background-image:url(../02_img/page/page8.png);}
+*/
+
+    

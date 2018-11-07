@@ -1,0 +1,254 @@
+<!--reset w 980/ center hack-->
+
+/*全部共用 start*/
+#wrap{
+	position:absolute;
+	}
+#container_980{
+	position:relative;
+	margin:0 auto;
+	width:980px;
+	}
+#contain{
+	}
+.clearfloat{
+	clear:both;
+	}
+#top{
+	float:left;
+	z-index:3;
+	margin-left:-12px;
+	/*margin-top:4px;
+	margin-left:-4px;*/
+	}
+	
+#content{
+	z-index:1;
+	position:relative;
+	top:-50px;
+	margin-bottom:-52px;
+	}
+
+#bottom{
+	float:left;
+	width:100%;
+	z-index:3;
+	}
+
+#footer{
+	position: relative;	
+	/*margin-top: -64px; /* negative value of footer height */
+	margin-top: 0 auto;
+	height: 64px;
+	clear:both;
+	} 
+	
+#footer{
+	background:#424242;
+}
+.foot_mail{
+	padding:10px 0;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.8em;
+	text-align:center;
+}
+.foot_mail p{
+	letter-spacing:2px;
+	width:100px;
+	margin:0 auto;
+	color:#cccccc;
+	border: 1px solid #CCCCCC;
+    border-radius: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	height: 14px;
+}
+.foot_mail p a ,.fmB1 a{
+	color:#cccccc;
+}
+.foot_mail p a:hover ,.fmB1 a:hover{
+	color:#FF7600;
+}
+.copyright{
+	position:relative;
+	bottom:0;
+	line-height:20px;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.65em;
+	text-align:center;
+	color:#cccccc;
+	border-top:1px solid #6b6b6b;
+	letter-spacing:1px;
+}
+/*全部共用 end*/
+
+/*box start*/
+.box_wrap{
+	position:absolute;
+	z-index:4; 
+	width:100%; 
+	height:100%; 
+	/*opacity: 0.3;*/
+	display:none;
+	}
+
+.box_close{
+	position:absolute;
+	z-index:5;
+	right:5px;
+	top:5px;
+	cursor:pointer;
+	}
+
+.box{
+	position: relative;
+	width:1027px;	
+	top: 20px;
+	margin:0 auto;
+	background-color:#F9F9F9; 
+	padding:15px;
+	border-radius:4px;
+	z-index:4;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	}
+.boxbg{
+	position:absolute;
+	/*display:block; */
+	width:100%; 
+	height:100%; 
+	opacity: 0.3;
+	background-color:#000000;
+	z-index:3;
+	top:0px;
+	}
+
+.box_inner{
+	position:relative;
+	width:auto;
+	height:auto;
+	margin:20px;
+	/*height:800px;JQ判定*/
+	overflow-y:scroll;
+	overflow-x:hidden;
+	}	
+	
+.bank_cont_main {
+padding: 0px 24px;
+}
+
+.bank_cont_main li {
+line-height: 26px;
+font-size: 16px;
+color: #000000;
+font-weight: normal;
+font-family: 'Open Sans', sans-serif, "微軟正黑體";
+padding: 0 1em;
+margin-left: 1em;
+text-indent: -1em;
+}
+
+#2015lunar{
+	width:1000px;
+	position:absolute;	
+	margin:0 auto;
+	z-index:4; 
+	}
+
+/*box end*/
+
+/*right start*/
+.icon_wrap{
+	position:fixed;	
+	z-index:1;
+	width:980px;
+	height:536px;
+	}
+#right_icon{
+	position:relative;
+	margin-left:1000px;
+	margin-top:180px;
+	z-index:1;
+	}
+#icon_1{
+	width:120px;
+	height:134px;
+	background:url(../02_img/r/r_1.png);
+	cursor:pointer;
+	}
+#icon_2{
+	width:120px;
+	height:134px;
+	background:url(../02_img/r/r_2.png);
+	cursor:pointer;
+	}
+#icon_3{
+	width:120px;
+	height:134px;
+	background:url(../02_img/r/r_3.png);
+	cursor:pointer;
+	}
+#icon_4{
+	width:120px;
+	height:134px;
+	background:url(../02_img/r/r_top.png);
+	cursor:pointer;
+	}
+/*right end*/
+
+
+/*content內容*/
+
+.content_pic_t	{	float:left;		width:186px;	height:178px;	margin-bottom:2px;}
+.content_pic_b	{	float:left;		width:186px;	height:166px;	margin-bottom:2px;}
+.content_name_t	{	float:left;		width:186px;	height:62px;}
+.content_name_b	{	float:left;		width:186px;	height:63px;}
+.content0  		{	float:left;		width:980px;	height:499px;}
+/*0 part*/
+.content0_1		{	float:left;		width:980px;	height:361px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:0px;}
+.content0_2		{	float:left;		width:480px;	height:118px;	margin-top:21px;	margin-left:0px;	margin-bottom:-2px;	margin-right:20px;	cursor:pointer;}
+.content0_3		{	float:left;		width:480px;	height:118px;	margin-top:21px;	margin-left:0px;	margin-bottom:-2px;	margin-right:0px;	cursor:pointer;}
+.content0_3_0	{	float:left;		width:163px;	height:155px;	margin-top:-21px;	margin-left:257px;	}
+
+/*1 part*/
+.content1		{	float:left;		width:980px;	height:663px;}
+.content1_0		{	float:left;		width:980px;	height:148px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+.content1_1		{	float:left;		width:380px;	height:242px;	margin-top:0px;		margin-left:9px;	margin-bottom:0px;	margin-right:7px;	cursor:pointer;}
+.content1_2		{	float:left;		width:186px;	height:242px;	margin-top:0px;		margin-left:0px;	margin-bottom:6px;	margin-right:8px;	cursor:pointer;}
+.content1_3		{	float:left;		width:186px;	height:242px;	margin-top:0px;		margin-left:0px;	margin-bottom:6px;	margin-right:7px;	cursor:pointer;}
+.content1_4		{	float:left;		width:186px;	height:242px;	margin-top:0px;		margin-left:0px;	margin-bottom:6px;	margin-right:11px;	cursor:pointer;}
+.content1_5		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:9px;	margin-bottom:36px;	margin-right:8px;	cursor:pointer;}
+.content1_6		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:7px;	cursor:pointer;}
+.content1_7		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:8px;	cursor:pointer;}
+.content1_8		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:7px;	cursor:pointer;}
+.content1_9		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:11px;	cursor:pointer;}
+
+/*2 part*/
+.content2		{	float:left;		width:980px;	height:663px;}
+.content2_0		{	float:left;		width:980px;	height:148px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+.content2_1		{	float:left;		width:380px;	height:242px;	margin-top:0px;		margin-left:9px;	margin-bottom:0px;	margin-right:7px;	cursor:pointer;}
+.content2_2		{	float:left;		width:186px;	height:242px;	margin-top:0px;		margin-left:0px;	margin-bottom:6px;	margin-right:8px;	cursor:pointer;}
+.content2_3		{	float:left;		width:186px;	height:242px;	margin-top:0px;		margin-left:0px;	margin-bottom:6px;	margin-right:7px;	cursor:pointer;}
+.content2_4		{	float:left;		width:186px;	height:242px;	margin-top:0px;		margin-left:0px;	margin-bottom:6px;	margin-right:11px;	cursor:pointer;}
+.content2_5		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:9px;	margin-bottom:36px;	margin-right:8px;	cursor:pointer;}
+.content2_6		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:7px;	cursor:pointer;}
+.content2_7		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:8px;	cursor:pointer;}
+.content2_8		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:7px;	cursor:pointer;}
+.content2_9		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:11px;	cursor:pointer;}
+
+/*3 part*/
+.content3		{	float:left;		width:980px;	height:663px;}
+.content3_0		{	float:left;		width:980px;	height:148px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+.content3_1		{	float:left;		width:380px;	height:242px;	margin-top:0px;		margin-left:9px;	margin-bottom:0px;	margin-right:7px;	cursor:pointer;}
+.content3_2		{	float:left;		width:186px;	height:242px;	margin-top:0px;		margin-left:0px;	margin-bottom:6px;	margin-right:8px;	cursor:pointer;}
+.content3_3		{	float:left;		width:186px;	height:242px;	margin-top:0px;		margin-left:0px;	margin-bottom:6px;	margin-right:7px;	cursor:pointer;}
+.content3_4		{	float:left;		width:186px;	height:242px;	margin-top:0px;		margin-left:0px;	margin-bottom:6px;	margin-right:11px;	cursor:pointer;}
+.content3_5		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:9px;	margin-bottom:36px;	margin-right:8px;	cursor:pointer;}
+.content3_6		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:7px;	cursor:pointer;}
+.content3_7		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:8px;	cursor:pointer;}
+.content3_8		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:7px;	cursor:pointer;}
+.content3_9		{	float:left;		width:186px;	height:231px;	margin-top:0px;		margin-left:0px;	margin-bottom:36px;	margin-right:11px;	cursor:pointer;}
+
+/*4 part*/
+.content4		{	float:left;		width:980px;	height:233px;}
+
+/*content end*/

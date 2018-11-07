@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+html,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit;vertical-align:bottom;}
+:focus { outline:0; }
+a:active { outline:none; }
+ol,ul { list-style:none; }
+table { border-collapse:separate; border-spacing:0; }
+caption,th,td { text-align:left; font-weight:normal; }
+blockquote:before,blockquote:after,q:before,q:after { content:""; }
+blockquote,q { quotes:"" ""; }
+a:link,a:visited {text-decoration:none;}
+a{text-decoration:none; color:#000}
+input, textarea, select { font-family: "微軟正黑體", "MS UI Gothic", "MS Gothic";}
+*{margin:0;padding:0;-webkit-text-size-adjust:none;}
+
+html, body {
+	height:100% !important;
+	-webkit-text-size-adjust:none;
+}
+
+#wrap {
+	min-height: 100%;
+	 *display: table; /* For IE7 Hack */
+	 *height: 100%; /* For IE7 Hack */
+	 _display: table; /* For IE6 Hack */
+	 _height: 100%; /* For IE6 Hack */
+	 display: table \9; /* For IE8 Hack */
+	 height: 100% \9; /* For IE8 Hack */
+}
+#header {
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	height:6px;
+	background:#424242;	
+	z-index:999;
+}
+.headline{
+	position: relative;
+	display: block;
+	top:6px;
+	width:980px;
+	margin:0 auto;
+	height:50px;
+
+}
+
+#nav{
+	width:100%;
+	height:20px;
+	padding:2px 0;
+	margin-top:8px;
+	background:#000000;
+	border-bottom:1px solid #a3a3a3;
+}
+
+#main {
+	position:relative;
+	overflow:auto;
+	height:auto;
+	padding-bottom: 45px;
+	z-index:10;
+	overflow: hidden \9;
+	height:auto \9;
+	padding-bottom: 45px \9;
+	z-index:0;
+}
+.titleback{
+	display: block;
+	position: relative;
+	margin:0 auto;
+	z-index:0;
+}
+.titlebanner{
+	width:980px;
+	margin:0 auto;
+	z-index:0;
+}
+#container{
+	width:1012px;
+	margin:0 auto;
+	position:relative;
+	/*z-index:10;*/
+}
+#container_980{
+	width:980px;
+	margin:0 auto;
+	position:relative;
+	/*z-index:10;*/
+}
+.side{
+	position:relative;
+	width:16px;
+	min-height:100%;
+}
+.contain{
+	position:relative;
+	width:980px;
+}
+
+/*頁尾*/
+#footer {
+	position: relative;
+	margin-top: -64px; /* negative value of footer height */
+	height:64px;
+	clear:both;
+	background:#424242;
+	z-index:990;
+} 
+
+.foot_mail{
+	padding:10px 0;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.8em;
+	text-align:center;
+}
+.foot_mail p{
+	letter-spacing:2px;
+	width:100px;
+	margin:0 auto;
+	color:#cccccc;
+	border: 1px solid #CCCCCC;
+    border-radius: 2px;
+}
+.foot_mail p a ,.fmB1 a{
+	color:#cccccc;
+}
+.foot_mail p a:hover ,.fmB1 a:hover{
+	color:#FF7600;
+}
+.copyright{
+	position:relative;
+	bottom:0;
+	line-height:20px;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.5em;
+	text-align:center;
+	color:#cccccc;
+	border-top:1px solid #6b6b6b;
+}
+
+/*Opera Fix*/
+body:before {
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;
+}
+
+
+/* 公用 */
+.justify{
+	text-align:justify;
+	text-justify: inter-ideograph;
+}
+.clear{
+	clear: both; 
+}
+.line_1px{
+	height:1px;
+	background:#cccccc;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.align_c{
+	text-align:center;
+}
+.align_l{
+	text-align:left;
+}
+.align_r{
+	text-align:right;
+}

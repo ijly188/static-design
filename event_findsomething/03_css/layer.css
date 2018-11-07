@@ -1,0 +1,52 @@
+/*content內容*/
+
+body				{min-width:1000px;}
+.rightbtn_list		{background-image:url(../02_img/rightbtn.png);	height:413px;	left:50%;	margin:-207px 0px 0px 500px;	position:fixed;	top:50%;	width:105px;	z-index:2;}
+.rightbtn			{cursor:pointer;	height:73px;	margin:0px 7px 9px 6px;	width:92px;}
+#rightbtn_1			{margin-top:32px;}
+#rightbtn_4			{margin-bottom:17px;}
+.gotop				{cursor:pointer;	height:45px;	margin:0px;	width:105px;}
+.clickeffect		{background-image:url(../02_img/clickeffect.png);	display:none;	height:50px;	left:0px;	position:absolute;	top:0px;	width:50px;	z-index:9;}
+#content_wrap		{margin-top:0px;}
+#bd_wrap			{background-image:url(../02_img/bg.jpg);	background-position:center top;	background-repeat:no-repeat;	min-width:1000px;/*要記得改哦*/	position:relative;	z-index:1;}
+/*margin-top:0px;	margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;*/
+.page				{background-repeat:no-repeat;}
+#content0			{height:421px;	margin:0px 0px 0px 0px;	position:relative;	/*margin-top: -28px;*/	width:980px;}
+	.moviemore		{border-radius:100%;	height:14px;	margin:398px 0px 0px 318px;	position:absolute;	width:51px;}
+#content1			{height:1148px;	position:relative;	margin:0px 0px 0px 0px;	width:980px;}
+
+	.item_wrap		{height:725px;	padding:207px 102px 153px 107px;	position:relative;	width:771px;}
+	.item_menu_wrap	{height:189px;	position:relative;	width:771px;	z-index:1;}
+	.item_menu_btn	{background-repeat:no-repeat;	cursor:pointer;	float:left;	height:189px;	margin-right:14px;	width:182px;}
+	.item_menu_pic	{display:none;	height:49px;	position:relative;	margin:140px 0px 0px 0px;	width:182px;}
+	#item_menu_btn_1{background-image:url(../02_img/item/topbtn/menubtn_1.png);}
+	/*#item_menu_btn_1:hover{background-image:url(../02_img/item/topbtn/menubtn_1_m.png);}*/
+	#item_menu_btn_2{background-image:url(../02_img/item/topbtn/menubtn_2.png);}
+	/*#item_menu_btn_2:hover{background-image:url(../02_img/item/topbtn/menubtn_2_m.png);}*/
+	#item_menu_btn_3{background-image:url(../02_img/item/topbtn/menubtn_3.png);}
+	/*#item_menu_btn_3:hover{background-image:url(../02_img/item/topbtn/menubtn_3_m.png);}*/
+	#item_menu_btn_4{background-image:url(../02_img/item/topbtn/menubtn_4.png);	margin-right:0px;}
+	/*#item_menu_btn_4:hover{background-image:url(../02_img/item/topbtn/menubtn_4_m.png);}*/
+	#item_menu_pic_1{background-image:url(../02_img/item/topbtn/menubtn_1_p.png);}
+	#item_menu_pic_2{background-image:url(../02_img/item/topbtn/menubtn_2_p.png);}
+	#item_menu_pic_3{background-image:url(../02_img/item/topbtn/menubtn_3_p.png);}
+	#item_menu_pic_4{background-image:url(../02_img/item/topbtn/menubtn_4_p.png);}
+
+	.item_findarea	{background-image:url(../02_img/item/item_bg.png);	height:542px;	margin-top:-6px;	position:relative;	width:771px;	z-index:2;}
+	.item_findpic	{background-repeat:no-repeat;	display:none;	position:absolute;	height:542px;	width:771px;}
+	#findpic_0		{background-image:url(../02_img/item/item/item_0.png);	display:block;}
+	#findpic_1		{background-image:url(../02_img/item/item/item_1.png);}
+	#findpic_2		{background-image:url(../02_img/item/item/item_2.png);}
+	#findpic_3		{background-image:url(../02_img/item/item/item_3.png);}
+	#findpic_4		{background-image:url(../02_img/item/item/item_4.png);}
+	.targetitem		{}
+	#targetitem_1	{height:171px;	margin:371px 0px 0px 412px;	position:absolute;	width:74px;}
+	#targetitem_2	{height:103px;	margin:212px 0px 0px 53px;	position:absolute;	width:136px;}
+	#targetitem_3_t	{height:43px;	margin:320px 0px 0px 476px;	position:absolute;	width:93px;}
+	#targetitem_3_b	{height:55px;	margin:363px 0px 0px 476px;	position:absolute;	width:82px;}
+	#targetitem_4	{height:68px;	margin:469px 0px 0px 619px;	position:absolute;	width:140px;}
+	.itemlink		{display:none;	height:100%;	position:relative;	width:100%;}
+
+.more				{background-image:url(../02_img/more.png);	background-position:center top;	background-repeat:no-repeat;	height:22px;	margin:0px 429px 0px 429px;	position:relative;	width:121px;}
+.more:hover			{border-bottom:solid 2px #FFF;	padding-bottom:2px;	width:121px;}
+/*content end*/

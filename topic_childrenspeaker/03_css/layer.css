@@ -1,0 +1,38 @@
+/*content內容*/
+body			{}
+#wrap			{	background:top center url(../02_img/bg.jpg);}
+/*0 part*/
+.content0		{	float:left;		width:980px;	height:584px;	margin-top:-28px;/*!important*/}
+.content0_0		{	float:left;		width:580px;	height:263px;	margin-top:20px;	margin-left:204px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+.content0_1		{	float:left;		width:166px;	height:283px;	margin-top:21px;	margin-left:22px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+.content0_2		{	float:left;		width:195px;	height:250px;	margin-top:-240px;	margin-left:13px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+.content0_3		{	float:left;		width:170px;	height:265px;	margin-top:-6px;	margin-left:-86px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+.content0_4		{	float:left;		width:183px;	height:275px;	margin-top:-14px;	margin-left:129px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+.content0_5		{	float:left;		width:170px;	height:285px;	margin-top:-22px;	margin-left:99px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+.content0_6		{	float:left;		width:100px;	height:30px;	margin-top:220px;	margin-left:2px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+
+/*1 part*/
+.content1		{	float:left;		width:980px;	height:401px;	margin-bottom:23px;}
+.content1_0		{	float:left;		width:306px;	height:401px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:30px;	cursor:pointer;}
+.content1_1		{	float:left;		width:306px;	height:401px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:30px;	cursor:pointer;}
+.content1_2		{	float:left;		width:306px;	height:401px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+
+/*2 part*/
+.content2		{	float:left;		width:980px;	height:401px;	margin-bottom:23px;}
+.content2_0		{	float:left;		width:306px;	height:401px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:30px;	cursor:pointer;}
+.content2_1		{	float:left;		width:306px;	height:401px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:30px;	cursor:pointer;}
+.content2_2		{	float:left;		width:306px;	height:401px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+
+
+/*3 part*/
+.content3		{	float:left;		width:980px;	height:401px;	margin-bottom:0px;}
+.content3_0		{	float:left;		width:306px;	height:401px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:30px;	cursor:pointer;}
+.content3_1		{	float:left;		width:306px;	height:401px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:30px;	cursor:pointer;}
+.content3_2		{	float:left;		width:306px;	height:401px;	margin-top:0px;		margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;}
+
+
+/*4 part*/
+.content4		{	float:left;		width:980px;	height:80px;	margin-bottom:0px;}
+.content4_0		{	float:left;		width:40px;		height:55px;	margin-top:16px;		margin-left:470px;	margin-bottom:5px;	margin-right:470px;	cursor:pointer;}
+
+/*content end*/

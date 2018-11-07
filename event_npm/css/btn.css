@@ -1,0 +1,48 @@
+ul#right{
+    list-style:none;
+    position: relative;
+	overflow:hidden;
+	z-index:0;
+}
+ul#right li{
+	position:relative;
+	display:block;
+	width:384px;
+	height:175px;
+	overflow:hidden;
+	z-index:0;
+}
+ul#right a{
+    cursor:pointer;
+    position:relative;
+    float:left;
+    height:175px;
+    width:384px;
+	z-index:999;
+}
+ul#right span.description{
+	display:block;
+	position:relative;
+	bottom:-175px;
+    width:374px;
+	height:42px;
+    color:#fff;
+    font-size:13px;
+	font-weight:normal;
+	z-index:999;
+	background: url(../img/women/opacity.png);
+	padding:8px 12px;
+	font-family: "Arial Unicode MS", "微軟正黑體";
+	z-index:999;
+
+}
+ul#right span.backimg{
+    display:block;
+	position:relative;
+	top:-175px;
+	z-index:0;
+}
+ul#right a:hover span.description{
+	background: url(../img/women/opacity.png);
+	z-index:999;
+}

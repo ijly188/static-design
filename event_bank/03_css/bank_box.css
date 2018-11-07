@@ -1,0 +1,35 @@
+<!--bank only-->
+html						{}
+/*box start*/
+.box_wrap					{position:fixed;	width:100%;	z-index:4;	height:100%;	/*opacity: 0.3;*/	display:none;}	
+.box						{background-color:#F9F9F9;	border-radius:4px;	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);	padding:15px;	position: relative;		margin:0 auto;	top: 20px;	width:1027px;	z-index:4;}
+.boxbg						{background-color:#000000;	/*display:block; */	height:100%;	opacity: 0.3;	position:absolute;	top:0px;	width:100%;	z-index:3;}
+.box_close					{cursor:pointer;	margin-top:-10px;	position:absolute;	right:5px;	z-index:5;}
+.box_inner					{height:auto;	/*height:800px;JQ判定*/	margin:20px;	overflow-x:hidden;	overflow-y:scroll;	position:relative;	width:auto;}
+.bank_cont_main				{padding: 0px 24px;}
+.bank_cont_main li			{color: #000000;	font-family: 'Open Sans', sans-serif, "微軟正黑體";	font-size: 16px;	font-weight:normal;	line-height: 26px;	margin-left: 1em;	padding:0 1em;	text-indent: -1em;}
+.bank_cont_main .fontset	{color: #000000;	font-family: 'Open Sans', sans-serif, "微軟正黑體";	font-size: 16px;	font-weight: normal;	line-height: 26px;	padding: 0 1em;	margin-left: 1em;	text-indent: -1em;}
+
+
+.banklogo					{margin-left:1em;	padding:1em;}
+.activecontent				{display:block;	height:auto;	margin-bottom:1em;	width:970px;}
+.activecontent_title		{display:block;}
+.activecontent_list			{display:block;	text-align: justify;	width:856px;	text-justify:inter-ideograph;	word-wrap: break-word;	word-break: break-all;}
+.activecontent_list_inner	{display:block;	text-align: justify;	width:824px;	text-justify:inter-ideograph;}
+.activecode_time			{color:#FF7600;}
+
+.activenotice				{height:auto;	display:block;	margin-bottom:2em;	width:970px;}
+.activenotice_title			{display:block;}
+.activenotice_list			{display:block;	text-align: justify;	text-justify:inter-ideograph;	width:856px;}
+.activenotice_list_inner	{display:block;	text-align: justify;	text-justify:inter-ideograph;	width:824px;}
+#activenotice_last_4		{text-indent:0em;}
+.warnings					{display:block;	font-size:28px;	font-weight:bolder;	margin:1em 0em;}
+.link_bank					{color:#FF7600;	display:inline;	font-weight: bold;}
+
+#acttitle1, #acttitle2, #acttitle3, #acttitle4, #acttitle5, #activecode_1, #noticetitle1{margin-left:-1em;}
+
+
+#bank_1, #bank_2, #bank_3, #bank_4, #bank_5{display:none;	width:970px;	position:absolute;	margin:0 auto;	z-index:4;}
+span a		 				{color:#545454;	display:inline;	text-decoration:none;}
+span a:hover 				{color:#FF7600;	display:inline;}
+/*box end*/

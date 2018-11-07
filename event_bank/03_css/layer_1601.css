@@ -1,0 +1,29 @@
+<!--bank only-->
+
+#wrap		{min-width:1010px;	position:absolute;	top:0;}
+
+#bottom		{margin-top:-20px;}
+/*content內容*/
+#content	{margin:0px auto;	position:relative;	z-index:1;}
+.content0	{position:relative;	width:980px;	height:315px;}
+.content1	{position:relative;	width:980px;	height:315px;	margin-bottom:9px;}
+.content2	{position:relative;	width:980px;	height:565px;	margin-bottom:9px;}
+
+
+.content2_1	{position:relative;	width:315px;	height:380px;	float:left;	margin-top:0px;	margin-right:8px;	margin-left:9px;	cursor:pointer;}
+.content2_2	{position:relative;	width:315px;	height:380px;	float:left;	margin-top:0px;	margin-right:8px;	margin-left:0px;	cursor:pointer;}
+.content2_3	{position:relative;	width:315px;	height:380px;	float:left;	margin-top:0px;						margin-left:0px;	cursor:pointer;}
+.content2_4	{position:relative;	width:315px;	height:380px;	float:left;	margin-top:9px;	margin-right:8px;	margin-left:9px;	cursor:pointer;}
+
+table		{border: 2px solid #000;	margin-left:16px;}
+table tr td	{border: 2px solid #000;	text-indent:0px;}
+.table_content{width:209px; /*margin-left: 30px;*/	display:table;}
+.table_align_c{margin-top:-36px;	position: absolute;	margin-left: -96px;}
+.column		{display: table-cell;	width:212px;	text-align:center;    vertical-align: middle;	padding:2px;}
+.column2	{display: table-cell;	width:167px;	text-align:center;    vertical-align: middle;	padding:2px;}
+.talign_l	{/*text-align:left;*/}
+.fontset.activecontent_list.table_ps	{text-indent: 0em;    margin-left: 0em;	color:red;}
+.connect_area{position:absolute;}
+.connect_area_phone	{position:absolute;	width:138px;	height:18px;	margin:8px 0px 0px 74px;}
+.connect_area_website{position:absolute;	width:138px;	height:18px;	margin:31px 0px 0px 74px;}
+/*content end*/

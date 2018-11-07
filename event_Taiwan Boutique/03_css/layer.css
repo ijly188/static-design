@@ -1,0 +1,39 @@
+/*content內容*/
+
+body			{min-width:1030px;}
+#content_wrap	{margin-top:0px;}
+#top			{position:absolute;}
+#bd_wrap		{background-image:url(../02_img/bg.jpg);	background-position:center top;	background-repeat:no-repeat;	min-width:1030px;/*要記得改哦*/	position:relative;	z-index:1;}
+/*margin-top:0px;	margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;*/
+.page			{background-repeat:no-repeat;}
+#content0		{height:804px;	position:relative;	margin-left:25px;	margin-right:25px;	width:980px;}
+	.topbanner	{background-image:url(../02_img/page/topbanner.png);	height:416px;	margin-top:43px;	position:absolute;	width:980px;	z-index:0;}
+	.intro		{background-image:url(../02_img/page/introbtn.png);	height:315px;	position:absolute;	top:416px;	width:980px;}
+	.introbtn	{cursor:pointer;	height:43px;	margin:225px 336px 47px 335px;	position:relative;	width:309px;}
+#content1		{height:861px;	position:relative;	margin-left:25px;	margin-right:25px;	width:980px;}
+	/*把tab*1的刪掉就好囉*/
+	.item_wrap	{height:861px;	margin-left:-25px;	position:relative;	width:980px;}
+	.item		{border-radius:100%;	cursor:pointer;	height:166px;	position:absolute;	width:166px;}
+	#item1		{background-image:url(../02_img/page/item_leave.png);	background-position:-559px -41px;	left:559px;	top:41px;}
+	#item1:hover{background-image:url(../02_img/page/item_enter.png);}
+	#item2		{background-image:url(../02_img/page/item_leave.png);	background-position: -50px -218px;	left: 50px;	top:218px;}
+	#item2:hover{background-image:url(../02_img/page/item_enter.png);}
+	#item3		{background-image:url(../02_img/page/item_leave.png);	background-position:-254px -218px;	left:254px;	top:218px;}
+	#item3:hover{background-image:url(../02_img/page/item_enter.png);}
+	#item4		{background-image:url(../02_img/page/item_leave.png);	background-position:-660px -218px;	left:660px;	top:218px;}
+	#item4:hover{background-image:url(../02_img/page/item_enter.png);}
+	#item5		{background-image:url(../02_img/page/item_leave.png);	background-position:-151px -394px;	left:151px;	top:394px;}
+	#item5:hover{background-image:url(../02_img/page/item_enter.png);}
+	#item6		{background-image:url(../02_img/page/item_leave.png);	background-position:-356px -394px;	left:356px;	top:394px;}
+	#item6:hover{background-image:url(../02_img/page/item_enter.png);}
+	#item7		{background-image:url(../02_img/page/item_leave.png);	background-position:-559px -394px;	left:559px;	top:394px;}
+	#item7:hover{background-image:url(../02_img/page/item_enter.png);}
+	#item8		{background-image:url(../02_img/page/item_leave.png);	background-position:-764px -394px;	left:764px;	top:394px;}
+	#item8:hover{background-image:url(../02_img/page/item_enter.png);}
+	#item9		{background-image:url(../02_img/page/item_leave.png);	background-position:-50px -570px;	left:50px;	top:570px;}
+	#item9:hover{background-image:url(../02_img/page/item_enter.png);}
+	
+
+#content2		{background-image:url(../02_img/page/gotop.png);	height:134px;	position:relative;	margin-left:25px;	margin-right:25px;	width:980px;}	
+	#gotop		{cursor:pointer;	height:48px;	margin:0px 436px 86px 436px;	width:108px;}
+/*content end*/

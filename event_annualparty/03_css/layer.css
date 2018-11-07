@@ -1,0 +1,71 @@
+/*content內容*/
+
+body				{min-width:1030px;}
+#top				{top:32px;}
+#content_wrap		{margin-top:0px;}
+#bd_wrap			{background:url(../02_img/bg.jpg) center top no-repeat;	min-width:1060px;/*要記得改哦*/	position:relative;	z-index:1;}
+/*margin-top:0px;	margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;*/
+.page				{background-repeat:no-repeat;}
+#content0			{height:1130px;	position:relative;	margin-left:0px;	margin-right:0px;	margin-top: -28px;	width:980px;}
+	
+	.machine_body	{background:url(../02_img/machine.png) center top no-repeat;	height:959px;	margin:90px 0px 0px -37px;	position:absolute;	width:1051px;	z-index:2;}
+	
+	.smoke			{background:url(../02_img/effect/smoke.gif) center top no-repeat;	height:258px;	margin:0px 0px 0px 704px;	opacity : 0.2;	filter:alpha(opacity=20); 	position:absolute;	width:343px;	z-index:3;}
+	.main_ad		{background:url(../02_img/main_ad.png) center top no-repeat;	height:400px;	margin:90px 0px 0px -37px;	 	position:absolute;	width:700px;	z-index:3;}
+	
+	.rightbtn		{background:url(../02_img/wheel/right_btn_bg.png) center top no-repeat;	height:335px;	margin:228px 0px 0px 686px;	position:absolute;	width:278px;	z-index:3;}
+	/*wheel start*/
+
+	a				{text-decoration: none;}
+	.ev_wrap		{-webkit-box-sizing: border-box;	-moz-box-sizing: border-box;	box-sizing: border-box;	display: block;	margin: 0 auto;	width: 278px;		position: relative;}
+	
+	.spin_active	{cursor: pointer;	display: block;	position:absolute;	z-index:5;}
+	#btn_spin_1		{height:77px;	margin:150px 0px 0px 96px;	width:43px;}
+	#btn_spin_2		{height:76px;	margin:0px 0px 0px 55px;	width:136px;}
+	
+	#spin_wheel_wrap{display:block;	float: none;	height:238px;	margin: 0 auto;	position:relative;	width:238px;	z-index:4;}
+	#spin_wheel_wheel, #spin_wheel_overlay{left:1px;	position:absolute;	top:76px;}
+	
+	#spin_wheel_wheel{background:url(../02_img/wheel/wheel.png) center top no-repeat;	height:238px;	width:238px;	z-index:3;}
+	#spin_wheel_overlay{height:238px;	position: absolute;	width:238px;	z-index:4;}
+	#spin_wheel_overlay > img{left:-22px;	position: absolute;	top:-76px;}
+	
+	.wheel_cnt		{height:117px;	position:absolute;	text-align:center;	width:89px;	z-index:3;/*你以為你搞得到我UCCU(σ≧▽≦)σ被我發現惹吧*/}
+	.wheel_cnt img	{left:0;	position:absolute;	top:0;}
+
+	.grid			{box-sizing: border-box;	position: relative;	-moz-box-sizing: border-box;	-webkit-box-sizing: border-box;}
+	/*wheel end*/
+	
+	/*slide start*/
+	.slide			{height:412px;	position:absolute;	margin:523px 0px 0px -8px;	width:974px;	z-index:1;}
+	
+	.effect_layer	{display:block;	height:412px;	position:absolute;	width:974px;	z-index:1;}
+	.itemeffect		{display:none;}
+	.effect_layer .item_title{background:url(../02_img/effect/which_item_name.gif) center top no-repeat;	z-index:2;}
+	.effect_layer .item1{background:url(../02_img/effect/which_item_1.gif) center top no-repeat;	z-index:2;}
+	.effect_layer .item2{background:url(../02_img/effect/which_item_2.gif) center top no-repeat;	z-index:2;}
+	.effect_layer .item3{background:url(../02_img/effect/which_item_1.gif) center top no-repeat;	z-index:2;}
+	.effect_layer .item4{background:url(../02_img/effect/which_item_2.gif) center top no-repeat;	z-index:2;}
+	
+	.effect_layer img{display:block;	position:absolute;}
+	
+	.slide_pic_wrap	{z-index:2;}
+	.slide_wrap		{height:412px;	margin:0 auto;	overflow:hidden;	position:relative;	width:974px;}
+	.slide_pic		{float:left;	margin:0px;}
+	
+	.slide_btn_side {cursor: pointer;	height: 90px;	margin:171px 0px 0px 0px;	position: absolute;	text-align: center;	top: 50%;	width: 48px;	z-index: 9999;}
+	.slide_btn_left {left: -37px;}
+	.slide_btn_right{right: -41px;}
+
+	.bg_layer		{background:url(../02_img/item/item_og.png) center top no-repeat;	height:412px;	margin:-414px 0px 0px 0px;	position:absolute;	width:974px;	z-index:-1;}
+	
+	.slide_link		{z-index:2;	overflow:hidden;}
+	.item.item_title{float:none;	height:88px;	margin:-8px 0px 0px -8px;	position:absolute;	width:288px;}
+	.item.item1		{margin-left:21px;}
+	.item			{float:left;	height:303px;	margin:109px 0px 0px 0px;	position:relative;	width:238px;}
+	/*slide end*/
+	
+
+
+
+/*content end*/

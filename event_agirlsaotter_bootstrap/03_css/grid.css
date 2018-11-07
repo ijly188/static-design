@@ -1,0 +1,208 @@
+/* define bootstrap 0 columns */
+		.col-xs-0,
+		.col-sm-0,
+		.col-md-0,
+		.col-lg-0 {
+			position: relative;
+			min-height: 0px;
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+ 
+		.col-xs-0 {
+			width: 0%;
+			float: left;
+		}
+ 
+		@media (min-width: 768px) {
+		.col-sm-0 {
+				width: 0%;
+				float: left;
+			}
+		}
+		@media (min-width: 992px) {
+			.col-md-0 {
+				width: 0%;
+				float: left;
+			}
+		}
+		@media (min-width: 1200px) {
+			.col-lg-0 {
+				width: 0%;
+				float: left;
+			}
+		}
+/* define bootstrap 5 columns */
+		.col-xs-5,
+		.col-sm-5,
+		.col-md-5,
+		.col-lg-5 {
+			position: relative;
+			min-height: 1px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+ 
+		.col-xs-5 {
+			width: 41.666666666666%;
+			float: left;
+		}
+ 
+		@media (min-width: 768px) {
+		.col-sm-5 {
+				width: 41.666666666666%;
+				float: left;
+			}
+		}
+		@media (min-width: 992px) {
+			.col-md-5 {
+				width: 41.666666666666%;
+				float: left;
+			}
+		}
+		@media (min-width: 1200px) {
+			.col-lg-5 {
+				width: 41.666666666666%;
+				float: left;
+			}
+		}
+/* define bootstrap 7 columns */
+		.col-xs-7,
+		.col-sm-7,
+		.col-md-7,
+		.col-lg-7 {
+			position: relative;
+			min-height: 1px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+ 
+		.col-xs-7 {
+			width: 58.333333333333%;
+			float: left;
+		}
+ 
+		@media (min-width: 768px) {
+		.col-sm-7 {
+				width: 58.333333333333%;
+				float: left;
+			}
+		}
+		@media (min-width: 992px) {
+			.col-md-7 {
+				width: 58.333333333333%;
+				float: left;
+			}
+		}
+		@media (min-width: 1200px) {
+			.col-lg-7 {
+				width: 58.333333333333%;
+				float: left;
+			}
+		}
+		
+/* define bootstrap 9 columns */
+		.col-xs-9,
+		.col-sm-9,
+		.col-md-9,
+		.col-lg-9 {
+			position: relative;
+			min-height: 1px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+ 
+		.col-xs-9 {
+			width: 75%;
+			float: left;
+		}
+ 
+		@media (min-width: 768px) {
+		.col-sm-9 {
+				width: 75%;
+				float: left;
+			}
+		}
+		@media (min-width: 992px) {
+			.col-md-9 {
+				width: 75%;
+				float: left;
+			}
+		}
+		@media (min-width: 1200px) {
+			.col-lg-9 {
+				width: 75%;
+				float: left;
+			}
+		}
+
+
+/* define bootstrap 10 columns */
+		.col-xs-10,
+		.col-sm-10,
+		.col-md-10,
+		.col-lg-10 {
+			position: relative;
+			min-height: 1px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+ 
+		.col-xs-10 {
+			width: 83.33333333333%;
+			float: left;
+		}
+ 
+		@media (min-width: 768px) {
+		.col-sm-10 {
+				width: 83.33333333333%;
+				float: left;
+			}
+		}
+		@media (min-width: 992px) {
+			.col-md-10 {
+				width: 83.33333333333%;
+				float: left;
+			}
+		}
+		@media (min-width: 1200px) {
+			.col-lg-10 {
+				width: 83.33333333333%;
+				float: left;
+			}
+		}
+		
+/* define bootstrap 11 columns */
+		.col-xs-11,
+		.col-sm-11,
+		.col-md-11,
+		.col-lg-11 {
+			position: relative;
+			min-height: 1px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+ 
+		.col-xs-11 {
+			width: 91.66666666666%;
+			float: left;
+		}
+ 
+		@media (min-width: 768px) {
+		.col-sm-11 {
+				width: 91.66666666666%;
+				float: left;
+			}
+		}
+		@media (min-width: 992px) {
+			.col-md-11 {
+				width: 91.66666666666%;
+				float: left;
+			}
+		}
+		@media (min-width: 1200px) {
+			.col-lg-11 {
+				width: 91.66666666666%;
+				float: left;
+			}
+		}

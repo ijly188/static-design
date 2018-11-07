@@ -1,0 +1,381 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+<title>分期0利率　再送刷卡金</title>
+<link rel="shortcut icon" href="img/favicon.png" />
+<link href="css/bottom.css" media="all" rel="stylesheet" type="text/css" />
+<link href="css/uni.css" media="all" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+
+<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+    
+<script type="text/javascript" src="js/jquery.fancybox.effect.js"></script>
+
+<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1800);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+
+<!-- Add google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Open+Sans::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+  
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.block{
+	background:url(img/bank1231/block.png);
+	width:296px;
+	height:382px;
+	padding:9px;
+	margin-bottom:10px;
+}
+.bank_title{
+	padding:10px 0;
+}
+.bank_cont{
+	padding:40px 0 0 0;
+}
+.bank_cont_main{
+	padding:0px 24px ;
+}
+.bank_cont_main li{
+	line-height:26px;
+	font-size:16px;
+	color:#000000;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif, "微軟正黑體";
+	padding:0 1em;
+	margin-left : 1em; 
+	text-indent : -1em ;
+}
+</style>
+
+</head>
+
+<body style="background:top center url(img/bank1231/background.jpg);">
+<div id="wrap">
+  <div id="header">
+  <div class="headline"><a href="http://eshop.fayaque.com.tw/"><img src="img/header.png" width="220" height="50" alt=""/></a></div> 
+</div><!-- header end -->
+
+<div class="clear"></div><!--分隔區塊用-->
+
+  <div id="main">
+   <div class="titlebanner">
+    <a href="#ip6"><img src="img/bank1231/titlebanner.png" width="980" height="429" alt=""/></a></div>
+  	<div id="container_980" style="">
+    	<div style="background:url(img/bank1231/block01.png); height:208px; vertical-align:central; text-align:center; padding-top:80px;">
+   	    <img src="img/bank1231/banklogo/花旗.png" width="255" height="40" alt=""/>　<img src="img/bank1231/banklogo/富邦.png" width="180" height="40" alt=""/>　<img src="img/bank1231/banklogo/聯邦.gif" width="149" height="40" alt=""/>　<img src="img/bank1231/banklogo/國泰.png" width="212" height="40" alt=""/>
+   	    <div class="clear" style="height:15px;"></div>
+        <img src="img/bank1231/banklogo/中國信託.png" width="150" height="40" alt=""/><img src="img/bank1231/banklogo/台新.png" width="150" height="40" alt=""/>　<img src="img/bank1231/banklogo/新光.png" width="170" height="40" alt=""/>　<img src="img/bank1231/banklogo/玉山.png" width="150" height="40" alt=""/>　<img src="img/bank1231/banklogo/澳盛銀行.gif" width="172" height="40" alt=""/>　</div>
+        <div><img src="img/bank1231/title01.png" width="980" height="47" alt=""/></div>
+        <div style="margin:0 9px">
+          <div class="block float_left" style="margin-right:10px;">
+            	<div class="bank_title">
+                <img src="img/bank1231/banklogo/花旗.png" width="255" height="40" alt=""  class="float_left"/>
+                <a class="fancybox" href="#inline1"><img src="img/bank1231/go.png" width="31" height="20" alt="" class="float_right" style="margin-top:17px"/></a></div>
+                <div class="bank_cont"><img src="img/bank1231/bank01.jpg" width="296" height="323" alt=""/></div>
+<!-- 詳細內容 start --><div id="inline1" style="width:1000px;display: none;">
+		<div><img src="img/bank1231/title02.png" width="1000" height="77" alt=""/></div>
+		<div class="bank_cont_main"><img src="img/bank1231/banklogo/花旗.png" width="255" height="40" alt="" style="margin-bottom:20px;"/><br>
+       
+        	<ul>
+            	<li>活動時間：104年1月1日- 104年1月31日</li>
+<li>活動內容：</li>
+<li>活動期間於法雅客e-shop網站累積分期消費6期(含)以上達下列指定金額並登錄，即可享回饋</li>
+<li>．單月累積達NT$6,000，享「刷卡金200元」</li>
+<li>．單月累積達NT$15,000，享「刷卡金400元」</li>
+<br>
+<li>注意事項：<span style="color:#FF7600">(登錄代碼V050900，需於2015/1/31前至花旗活動網站完成登錄)</span></li>
+<li>*	每卡於每商店限擇一優惠回饋乙次、最高回饋400元，恕不得跨級距重複回饋。分期適用之商品或期數，請依各商店公告為主；法雅客e-shop僅提供6期分期。</li>
+<li>*	登錄、相關優惠權益或服務之限制條件及更多分期優惠詳本行活動網址。</li>
+<br>
+<li>注意事項：</li>
+<li>1.	本活動提供花旗銀行在台灣發行之VISA / MasterCard信用卡（不含Ready Cash卡及商務信用卡）之持卡人參加。大來公司發行之大來卡恕不適用本活動。</li>
+<li>2.	本活動限活動期間內於活動指定之配合商店刷花旗卡之新增分期消費適用，正、附卡消費合併計算，分期交易以消費日為準。活動期間每卡於每商店參加本活動限擇一優惠回饋乙次、最高回饋400元。分期適用之商品或期數，請依各商店公告為主。</li>
+<li>3.	持卡人需於活動期間進入花旗活動專屬網頁完成登錄，逾期未登錄者視同放棄，恕無法補登錄。 各活動登錄額滿即提前終止並公告於分期活動登錄網頁。符合活動回饋資格登錄兌換成功之正卡持卡人所獲得之贈品/刷卡金，最快將統一於活動結束8週後由花旗銀行直接寄送至正卡持卡人帳單地址/回饋至正卡持卡人帳上用以折抵帳單消費，依各活動內容所獲贈之贈品，持卡人不得要求將所獲贈之贈品/刷卡金更換或折抵現金。如有其他任何疑問，請致電本行卡背專線，本行將有專人為您服務。</li>
+<li>4.	本活動訂單金額應以實際刷卡授權金額為準，分期交易以消費日為準。本活動符合回饋資格之訂單須成功刷花旗卡付款且未退貨始可具有回饋資格，若付款失敗、訂單取消、分期取消、退貨，該筆交易不得參加本活動。所有參加本活動所持有之花旗信用卡所載特定卡號於活動期間至贈品/刷卡金回饋時，皆須為有效卡且無逾期未繳款情事；持卡人若有不符合或違反本活動規定事項者或所持有之花旗信用卡發生遭限制或停止使用或延滯繳款之情事，花旗銀行保有取消回饋之權利。</li>
+<li>5.	本活動注意事項載明於活動網頁中，參加者於參加本活動之同時，即同意接受本活動注意事項之規範，如有違反本活動注意事項之行為，特約商店與花旗銀行得取消其參加或回饋資格，並對於任何破壞本活動之行為保留相關權利。</li>
+<li>6.	花旗銀行僅提供產品優惠訊息，並非商品或服務之出售人，與合作廠商之間並無代理或提供保證，持卡人對於提供服務內容有任何爭議，請逕洽合作廠商尋求協助。</li>
+<li>7.	信用卡分期付款交易係由花旗銀行一次墊付消費款項予特約商店，並由持卡人分期繳付消費帳款予花旗銀行。花旗銀行並未介入商品之交付或商品瑕疵等買賣之實體關係，相關商品退貨或服務取消之退款事宜，持卡人應先洽特約商店尋求解決，如無法解決，得要求花旗銀行就該筆交易以「帳款疑義之處理程序」辦理。</li>
+<li>8.	詳細花旗銀行easy購信用卡分期付款注意事項請上花旗銀行網站<a href="http://www.citibank.com.tw/EPP" target="_blank">www.citibank.com.tw/EPP</a>查詢。 <br>
+<br></li>
+            </ul>
+        </div></div>
+          </div>
+
+<div class="block float_left" style="margin-right:10px;">
+            	<div class="bank_title">
+                <img src="img/bank1231/banklogo/富邦.png" width="180" height="40" alt=""  class="float_left"/>
+                <a class="fancybox" href="#inline14"><img src="img/bank1231/go.png" width="31" height="20" alt="" class="float_right" style="margin-top:17px"/></a></div>
+                <div class="bank_cont"><img src="img/bank1231/bank04.jpg" width="296" height="323" alt=""/></div>
+<!-- 詳細內容 start --><div id="inline14" style="width:1000px;display: none;">
+		<div><img src="img/bank1231/title02.png" width="1000" height="77" alt=""/></div>
+		<div class="bank_cont_main"><img src="img/bank1231/banklogo/富邦.png" width="180" height="40" alt="" style="margin-bottom:20px;"/><br>
+        	<ul>
+            	
+            	<li>活動時間：104年1月1日- 104年1月31日</li>
+<li>活動內容說明：</li>
+<li>活動時間內持富邦信用卡於法雅客e-shop刷卡消費：</li>
+<li>．分期消費累積滿4,000元送刷卡金100元</li>
+<li>．分期消費累積滿12,000元送刷卡金300元
+<br>(須登錄，每歸戶限擇優回饋乙次)</li>
+<li>*數位生活卡及LINE FRIENDS卡再享2%刷卡金(回饋方式及注意事項請參閱本行官網)</li>
+<br>
+<li>注意事項：</li>
+<li>1. 本活動需於活動期間內完成登錄始可參加本活動，登錄專線（02）8751-1313按777。</li>
+<li>2. 正、附卡消費合併計算，並以正卡持卡人為刷卡金之受贈者，活動期間每歸戶限擇優回饋乙次，回饋上限300元。</li>
+<li>3. 活動期間以”消費日”為準。分期交易以其分期前購買總金額歸入首期計算(不適用於「指定消費分期」)。</li>
+<li>4. 本活動獲贈之刷卡金預計於104年3月15日前統一匯入信用卡帳戶中。</li>
+<li>5. 被回饋客戶所持之富邦信用卡於回饋當時需為有效卡，且無延遲繳款或其他違反信用卡契約之情事，否則將喪失本活動資格。</li>
+<li>6. 本活動以實際成功訂單計算，若為付款失敗、訂單取消、銷退等訂單將不列入計算範圍。</li>  
+<li>7. 消費金額不包含： 購物金、滿額再折價之活動折扣或其他信用卡優惠折抵（例如：紅利折抵）。</li>
+<li>8. 台北富邦銀行與法雅客e-shop保留修改、變更、取消本活動之權利。</li><br><br>
+<li>詳情請上<a href="https://www.fubon.com/bank/home/" target="_blank">https://www.fubon.com/bank/home/</a> (銀行活動以各銀行公告為主)<br>
+<br></li>
+            </ul></div></div>
+</div>
+          
+            <div class="block float_left">
+            	<div class="bank_title" id="ip6">
+                <img src="img/bank1231/banklogo/中國信託.png" width="150" height="40" alt=""  class="float_left"/>
+                <a class="fancybox" href="#inline13"><img src="img/bank1231/go.png" width="31" height="20" alt="" class="float_right" style="margin-top:17px"/></a></div>
+                <div class="bank_cont"><img src="img/bank1231/bank03.jpg" width="296" height="323" alt=""/></div>
+<!-- 詳細內容 start --><div id="inline13" style="width:1000px;display: none;">
+		<div><img src="img/bank1231/title02.png" width="1000" height="77" alt=""/></div>
+		<div class="bank_cont_main"><img src="img/bank1231/banklogo/中國信託.png" width="150" height="40" alt="" style="margin-bottom:20px;"/><br>
+        	<ul>
+            	<li>活動時間：104年1月1日- 104年1月31日</li>
+<li>活動辦法：</li>
+<li>　活動期間於法雅客e-SHOP刷中信卡並登錄成功，分6期以上累積滿3000元(含)以上可享刷卡金1.5%回饋，每戶最高回饋1500元(限登錄3000名)<br>
+登錄方式：請上網登錄<a href="http://ctbcbank.xcoode.com/" target="_blank">http://ctbcbank.xcoode.com/</a></li>
+<br>
+<li>加碼活動：</li>
+<li>　【中信卡輕鬆“分”享蘋果】<br>
+104/1/1~104/3/31中信卡每刷一筆分期不限金額，享iPhone 6抽獎機會乙次，共100名(免登錄，104年5月底抽出)</li>
+<li>活動網址：<br>
+  <a href="https://www.ctbcbank.com/html/201503/creditcard/CNB2014121908/index.html" target="_blank">https://www.ctbcbank.com/html/201503/creditcard/CNB2014121908/index.html</a></li>
+ <br>
+
+<li>活動注意事項：</li>
+<li>1.分期交易消費日需介於活動期間內，且須於消費次月15號前消費店家已請款入帳(不含退貨、取消交易)。</li>
+<li>2.客戶須於消費當月登錄成功者始符合資格，本行於消費次月底前將刷卡金入帳至主卡人帳戶中，每戶僅限回饋一次(擇優回饋)，正附卡消費金額合併計算。</li>
+<li>3.若符合回饋人數超過份數，將以登錄之順序為準，先登錄者可獲得。</li>
+<li>4.本活動將排除已參加同期間同特店之本行刷卡消費活動者之適用，不得重複登錄及計算消費金額與回饋，若重複登錄將以本活動優先，其他活動登錄無效。</li>
+<li>5.分期滿額回饋以實際刷卡總交易金額計算，付款失敗、訂單取消、退貨則該筆交易不得參加本活動。</li>
+<li>6.本行之美國運通卡、公司卡、簽帳金融卡等無分期功能之卡片恕無法參加本活動。</li>
+<li>7.有關分期付款買賣，本行僅涉及代墊款項之資金關係，且已將商品總金額一次墊付予商品出售人，並未介入商品交付或商品瑕疵等買賣實體關係，相關商品出退貨或服務取消之退款事宜，持卡人應先逕洽商品出售人尋求解決；如無法解決，得要求本行就該筆交易以「帳款疑義之處理程序」處理。</li>
+<li>8.如有任何因電腦、網路、電話、技術或不可歸責於本行與活動指定特店購物之事由，而使參加本活動卡友登錄之資料有錯誤、無法辨識，本行與活動指定特店不負任何法律責任，參加者亦不得因此異議。</li>
+<li>9.詳細活動辦法依本行最新網站公告為準，本行與活動指定特店保留修改、變更、取消及終止本活動之權利，並依信用卡業務機構管理辦法第19條及相關規範辦理。</li>
+<li>10.以上金額皆以新臺幣計價。</li>
+<li>11.依所得稅法規定，機會中獎年度累積中獎價值超過新臺幣1,000元，將併入中獎人個人之年度綜合所得稅申報；若年度累積中獎價值超過新臺幣20,000元，中獎人須自行負擔10%之所得稅(非中華民國境內居住之個人為20%)，並配合本行辦理代扣繳相關事宜。中獎人並須為中國信託之有效卡持卡人始符合領獎資格；中獎人不得要求將中獎項目折換為現金、或轉讓予他人。</li>
+<li>12.自104/1/1起，分期付款交易將不再提供刷卡紅利點數、里程、電信點及現金等回饋，詳情請依官網公告為主。</li>
+<li>詳情請上<a href="https://www.ctbcbank.com/CTCBPortalWeb/appmanager/ebank/rb" target="_blank">https://www.ctbcbank.com/CTCBPortalWeb/appmanager/ebank/rb</a> (銀行活動以各銀行公告為主)</li><br><br></ul>
+        </div></div></div>
+            
+            <div class="clear"></div>
+          
+          <div class="block float_left" style="margin-right:10px;">
+            	<div class="bank_title">
+                <img src="img/bank1231/banklogo/聯邦.gif" width="149" height="40" alt=""  class="float_left"/>
+                <a class="fancybox" href="#inline12"><img src="img/bank1231/go.png" width="31" height="20" alt="" class="float_right" style="margin-top:17px"/></a></div>
+                <div class="bank_cont"><img src="img/bank1231/bank02.jpg" width="296" height="323" alt=""/></div>
+<!-- 詳細內容 start --><div id="inline12" style="width:1000px;display: none;">
+		<div><img src="img/bank1231/title02.png" width="1000" height="77" alt=""/></div>
+		<div class="bank_cont_main"><img src="img/bank1231/banklogo/聯邦.gif" width="149" height="40" alt="" style="margin-bottom:20px;"/>
+        	<ul>
+            	<li>活動期間：103年12月11日至104年1月31日。</li>
+<li>登錄期間：103年12月11日至104年1月31日。</li>
+<li>適用對象：聯邦銀行信用卡持卡人且於消費當月完成登錄者。</li>
+<li>活動內容：活動期間於法雅客e-shop單筆消費滿4,000元送100元刷卡金(限量50份)，滿10,000元送250元刷卡金(限量15份) 。</li>
+<li>　　　　　＊註1：均含原始回饋。</li>
+<li>　　　　　＊註2：正、附卡交易合併計算，活動期間各通路每月每戶回饋一次，最高回饋刷卡金250元。
+<li>回饋日期： 104年2月10日及3月10日，刷卡金限抵扣104年1、2月一般新增消費，未抵扣完則歸零。</li>
+<li>注意事項：
+<li>1.	本活動不適用萬用金融卡、商務差旅卡(個人商務卡仍得參加本活動)、採購卡所為之交易及於交易種類為退貨交易及退貨之原請款交易、爭議款、該交易經取消、非持卡人本人所為之交易、違反信用卡約定條款之交易、非真實之融資性交易或其他不實交易，違反國際組織相關規範之交易。</li>
+<li>2.	參加本活動之持卡人須於消費當月(<a href="https://card.ubot.com.tw/eCard/activity_login/Login.aspx" target="_blank">https://card.ubot.com.tw/eCard/activity_login/Login.aspx</a>)完成登錄（完成登錄時間悉以本行信用卡管理系統為準），始符合活動資格。</li>
+<li>3.	<span style="color:#FF6700">符合本活動回饋刷卡金之交易金額，不納入「偶數日2%回饋」活動計算。</span></li>
+<li>4.	本活動以正卡持卡人為參加活動之名義人，正、附卡交易合併計算，活動期間各通路每月每戶擇優回饋一次，<span style="color:#FF6700">最高回饋刷卡金200元。</span></li>
+<li>5.	<span style="color:#FF6700">刷卡金將於104年2月10日及3月10日回饋至正卡持卡人信用卡帳戶，限抵扣104年1、2月一般新增消費，未抵扣完則歸零，亦不得要求轉撥現金。</span>例：客戶103年12月22日符合回饋資格獲得250元刷卡金，104年1月新增消費200元，則於104年2月10日回饋200元，剩餘50元刷卡金則歸零。</li>
+<li>6.	新增消費定義為一般刷卡消費及一般郵購項目，惟排除下列交易：一卡通儲值金、悠遊卡自動加值金、預借現金、專案型預借現金產品、餘額代償、各項手續費、年費、延滯息、掛失費、基金申購、公用事業費用代扣、各項稅款、學費、各類繳費平台(如NCCC學費平台、27608818繳費平台)交易、車輛選/標號交易、政府規費、中華電信資費、電子化e政府平台交易、交通罰款、退款、爭議款、其他手續費等非消費性帳款。</li>
+<li>7.	本活動所指「含原始回饋」係以活動期間消費之卡別原始回饋，計算扣除金額(刷卡金以元為單位，小數點後不足1元捨去) 相關作業處理、發送方式依本行規定為準：<br>
+<ul><li>
+(1)現金回饋依各卡別原信用卡約定所提供的現金或紅利回饋比率計之，但下列卡別依下列規定：<br>
+．法拉利無限卡新增一般消費以0.3%計之。<br> 
+．聯邦世界卡新增一般消費以0.3%計之。<br>
+．聯邦無限卡新增一般消費以0.8%計之。<br>
+．樂活鈦金卡新增一般消費以0.5%計之。<br>
+．樂活御璽卡新增一般消費以0.5%計之。<br>
+．幸福御守卡新增一般消費以0.5%計之。<br> 
+．法拉利白金卡以0.5%計之。<br>
+．珍鑽御璽卡、聯邦御璽卡新增一般消費以0.7%計之。<br>  
+．順發3C卡新增一般消費以0.3%計之。<br>
+．淡水信用合作社聯名卡新增一般消費以0.3%計之。</li> 
+<li>(2)紅利回饋卡別：以0.3%計之；另安麗鈦金卡新增一般消費以0.2%計之。</li>
+<li>(3)哩程回饋卡別：復興航空白金卡及普卡現金回饋以1%計之；復興航空御璽卡新增一般消費以1.2%計之。</li></ul></li>
+<li>8.	本活動消費金額之計算係以交易日介於活動期間之消費，且活動期間之消費商店應於消費次月10日前完成請款。交易日以帳單所載之『消費日』為準，幣別以新臺幣計，且正附卡歸戶合併累積計算；分期消費以消費總金額計算(計認列1筆)，不包含活動期間前交易之分期每期出帳金額。</li>
+<li>9.	凡於活動期間或刷卡金回饋前後，信用卡正、附卡有遭強制停用、申請停用、掛失不補發、逾期繳款、到期不續卡者、取消交易或其他聯邦銀行依信用卡約定條款停止持卡人使用信用卡之情形者，聯邦銀行得撤銷其回饋資格，如已回饋刷卡金者，將於次期帳單扣回。</li>
+<li>10.	如有非可歸責於聯邦銀行或法雅客之事由致活動方式需變更或其他未盡事宜，聯邦銀行與法雅客保留隨時修改、變更、取消本活動之權利，亦有權對本活動之所有事宜做出解釋或決定，並於聯邦銀行信用卡、法雅客e-shop網站公告後實施。</li>
+<br>
+<li>詳情請上<a href="https://card.ubot.com.tw/eCard/" target="_blank">https://card.ubot.com.tw/eCard/</a>(銀行活動以各銀行公告為主) <br>
+<br>
+</li>
+            </ul>
+        </div></div>
+</div>
+          
+            <div class="block float_left" style="margin-right:10px;">
+            	<div class="bank_title">
+                <img src="img/bank1231/banklogo/台新.png" width="150" height="40" alt=""  class="float_left"/>
+                <a class="fancybox" href="#inline15"><img src="img/bank1231/go.png" width="31" height="20" alt="" class="float_right" style="margin-top:17px"/></a></div>
+                <div class="bank_cont"><img src="img/bank1231/bank05.jpg" width="296" height="323" alt=""/></div>
+<!-- 詳細內容 start --><div id="inline15" style="width:1000px;display: none;">
+		<div><img src="img/bank1231/title02.png" width="1000" height="77" alt=""/></div>
+		<div class="bank_cont_main"><img src="img/bank1231/banklogo/台新.png" width="150" height="40" alt="" style="margin-bottom:20px;"/><br>
+
+        	<ul>
+            	<li>活動期間：103年12月11日至104年1月31日。</li>
+<li>活動內容：</li>
+<li>103/12/11-104/1/31於法雅客網路通路刷台新信用卡累積滿NT$4,000(含)以上，回饋刷卡金100元。</li>
+<li>*本活動需上網或來電客服登錄。</li>
+<li>*本活動正、附卡合併計算，活動期間每戶限回饋乙次。</li>
+<br>
+<li>活動注意事項：</li>
+<li>1. 本活動除VISA金融卡不得參加外，其餘台新信用卡會員均可參加本活動；持卡人必須於2014年12月11起日至2015年2月10日前至台新銀行網頁或致電客服完成本活動參加登錄作業方為有效，逾時不候。 </li>
+<li>2. 本活動以信用卡持卡人於活動期間內新增消費為限，且須以信用卡成功繳款且未退貨之有效訂單方才適用。</li> 
+<li>3. 本活動所稱有效訂單以法雅客e-shop之定義為準，且累積消費金額之計算應扣除信用卡持卡人使用紅利點數折抵部分消費金額後之消費金額方可列入計算，即以實際授權金額為準。</li> 
+<li>4. 本活動之回饋資格不得轉讓予他人、變更回饋內容或折換現金等。 </li>
+<li>5. 本活動之回饋刷卡金，每一位正卡信用卡持卡人限回饋一次，正、附卡之消費合併計算，台新銀行預計於2015年3月15日前統一回饋予正卡信用卡帳戶，本回饋屬額外回饋，原適用紅利點數及現金回饋者，仍可獲得原有回饋。</li> 
+<li>6. 倘信用卡持卡人發生以下事項，則不予回饋：產生簽帳爭議而暫停付款、停卡、掛失不補發、不續卡、遲繳、欠款或違反信用卡會員約定條款事項者。</li> 
+<li>7. 台新銀行並未介入商品之交付或商品瑕疵等買賣之實體關係，相關商品退貨或服務取消之退款事宜，持卡人應先洽法雅客尋求解決。</li> 
+<li>8. 台新銀行與法雅客e-shop均保留審核信用卡持卡人參加本活動資格、交易訂單、付款方式、繳款成功與否及隨時修改或變更本活動內容之權利。</li><br>
+
+<li>詳情請上<a href="http://www.taishinbank.com" target="_blank">http://www.taishinbank.com</a> (銀行活動以各銀行公告為主)<br>
+<br>
+</li>
+            </ul>
+        </div></div>
+            </div>
+            <div class="block float_left">
+            	<div class="bank_title">
+                <img src="img/bank1231/banklogo/新光.png" width="170" height="40" alt=""  class="float_left"/>
+                <a class="fancybox" href="#inline16"><img src="img/bank1231/go.png" width="31" height="20" alt="" class="float_right" style="margin-top:17px"/></a></div>
+                <div class="bank_cont"><img src="img/bank1231/bank06.jpg" width="296" height="323" alt=""/></div>
+<!-- 詳細內容 start --><div id="inline16" style="width:1000px;display: none;">
+		<div><img src="img/bank1231/title02.png" width="1000" height="77" alt=""/></div>
+		<div class="bank_cont_main"><img src="img/bank1231/banklogo/新光.png" width="170" height="40" alt="" style="margin-bottom:20px;"/><br>
+
+        	<ul>
+            	<li>活動期間：103年12月17日至104年1月31日。</li>
+<li>活動內容：</li>
+<li>　活動期間於新光銀行網站登錄參加活動，並至法雅客e-shop刷新光銀行信用卡消費，單筆消費滿4,000元(含)以上即送刷卡金100元。活動期間每戶每月最高回饋100元刷卡金，限量25名。</li>
+<br>
+<li>活動名稱：法雅客e-shop開幕慶</li>
+<li>活動對象：新光銀行信用卡友</li>
+<li>活動登錄時間：2014/12/17 - 2015/02/8</li>
+<br>
+<li>活動注意事項：</li>
+<li>1.本活動採登錄制，欲參加活動需於活動登錄期間至新光銀行網站完成登錄，逾期或未登錄者恕不適用本活動優惠。</li>
+<li>2.新光銀行商務卡、VISA金融卡、分期七卡不適用本活動。</li>
+<li>3.本活動各門檻採限量回饋，且參加者須符合活動門檻之成功交易訂單為計算實際可回饋依據，若符合回饋人數超過活動可提供名額，將以登錄之順序為準，先登錄者可獲得，活動回饋名單以新光銀行於活動結算後計算之實際符合回饋資格為準，活動期間正附卡合計限回饋乙次。</li>
+<li>4.本活動以實際訂單計算，若付款失敗、訂單取消、退貨，該筆訂單金額將不列入計算範圍。</li>
+<li>5.本活動注意事項載明於活動網頁中，參加者於參加本活動之同時，即同意接受本活動注意事項之規範，如有違反本活動注意事項之行為，法雅客與新光銀行得取消其參加活動或回饋或得獎資格，並對於任何破壞本活動之行為保留相關權利。</li>
+<li>6.如有任何因電腦、網路、電話、技術或不可歸責於法雅客與新光銀行之事由，而使參加者登錄之資料有遲延、遺失、錯誤、無法辨識或毀損之情況，法雅客與新光銀行不負任何法律責任，參加者亦不得因此異議。</li>
+<li>7.若正卡持卡人終止信用卡、掛失不補發、到期不續卡或遭銀行停止使用信用卡權利、延滯繳款或其他違反信用卡契約等情事時，即喪失回饋資格。</li> 
+<li>8.如有不可歸責於本行之事由，本行得踐行法定程序後變更、終止及取消本活動；另本行有權對本活動之所有事宜做出解釋或決定，並於公告後實施。</li><br>
+<li>詳情請上<a href="https://www.skbank.com.tw/" target="_blank">https://www.skbank.com.tw/</a> (銀行活動以各銀行公告為主) <br>
+<br>
+</li>
+            </ul>
+        </div></div>
+            </div>
+                        
+            <div class="clear"></div>
+          
+          <div class="block float_left">
+            	<div class="bank_title">
+                <img src="img/bank1231/banklogo/玉山.png" width="150" height="40" alt=""  class="float_left"/>
+                <a class="fancybox" href="#inline17"><img src="img/bank1231/go.png" width="31" height="20" alt="" class="float_right" style="margin-top:17px"/></a></div>
+                <div class="bank_cont"><img src="img/bank1231/bank07.jpg" width="296" height="323" alt=""/></div>
+<!-- 詳細內容 start --><div id="inline17" style="width:1000px;display: none;">
+		<div><img src="img/bank1231/title02.png" width="1000" height="77" alt=""/></div>
+		<div class="bank_cont_main"><img src="img/bank1231/banklogo/玉山.png" width="150" height="40" alt="" style="margin-bottom:20px;"/><br>
+
+        	<ul>
+            	<li>活動期間：103年12月11日~104年01月31日</li>
+<li>活動內容：活動期間內，持玉山銀行信用卡於法雅客e-shop刷卡消費：</li>
+<li>．單筆滿8,000元，贈刷卡金200元</li>
+<li>．單筆滿16,000元，贈刷卡金400元<br>
+※活動回饋上限為800元，需來電登錄</li>
+<br>
+<li>注意事項：</li>
+<li>1.本活動需於活動期間內分別來電登錄，始符合回饋資格，正、附卡合併計算。</li>
+<li>2.登錄專線：02-2595-5213按1按1053登錄「法雅客網購開幕慶最高贈800元刷卡金」活動。</li>
+<li>3.符合回饋資格統一於2015/2月起關帳時回饋於正卡人帳戶。</li>
+<li>4.悠遊Debit卡、公司卡及採購卡等僅適用其原卡片之回饋，恕不適用本活動。</li>
+<li>5.玉山銀行與法雅客e-shop保留活動修正、暫停及終止之權利。</li>
+<br>
+<li>詳情請上<a href="http://www.esunbank.com.tw" target="_blank">http://www.esunbank.com.tw</a> (銀行活動以各銀行公告為主) <br>
+<br>
+</li>
+            </ul>
+        </div></div>
+          </div> 
+                <div style="margin-top:160px; text-align:center"><img src="img/bank1231/item.png" width="602" height="86" alt=""/></div>                  
+          <div class="clear" style="height:24px;"></div>
+           
+      </div>
+    </div><!-- container end -->
+　　</div><!-- main end -->
+</div><!-- wrap end -->	
+
+<div id="footer">
+ <div class="foot_mail"><p><a href="http://eshop.fayaque.com.tw/epaper" target="_blank">訂閱電子報</a></p></div>
+ <div class="copyright">法雅客股份有限公司版權所有Copyright © 2014 FAYAQUE CO.,LTD. All Rights Reserved.</div>
+</div><!-- footer end -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57605369-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+/*box start*/
+.box_wrap		{display:none;	height:100%;	/*opacity: 0.3;*/	position:absolute;	width:100%;	z-index:4;}
+.box			{background-color:#F9F9F9;	border-radius:4px;	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);	margin:0 auto;	padding:15px;	position: relative;	top: 20px;	width:950px;	z-index:4;}	
+.box_close		{cursor:pointer;	margin-top:-10px;	position:absolute;	right:5px;	z-index:5;}
+.box_inner		{height:auto;/*height:800px;JQ判定*/	margin:20px;	overflow-y:scroll;	overflow-x:hidden;	position:relative;	width:auto;}	
+.boxbg			{background-color:#000000;	/*display:block; */	height:100%;	opacity: 0.3;	position:absolute;	top:0px;	width:100%;	z-index:3;}	
+.poppage_content{padding: 0px 24px;}
+#poppage_1, #poppage_2, #poppage_3, #poppage_4, #poppage_5, #poppage_6, #poppage_7, #poppage_8{	display:none;	margin:0 auto;	position:absolute;		width:950px;	z-index:4; 	}
+/*box end*/

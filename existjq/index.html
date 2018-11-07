@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>元件存在測試</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		/*global setting start*/
+		div a{text-decoration:none !important;}
+		a{color:#000;}
+		a:hover{color:#aaa;}
+		/*global setting end*/
+
+		.jumbotron > .container{width:1140px;margin:0 auto;position:relative;}
+		.jumbotron > .container > .member_area{position:absolute;top:-40px;right:0;}
+		.jumbotron > .container > .member_area > a{margin-right:15px;}
+		.jumbotron > .container > a > h1{position:absolute;top:-40px;left:0;padding:0;margin:0;}
+
+		.container-fluid .search_area{height:100%;width:100%;display:block;position:fixed;margin:100px;}
+		.container-fluid .search_area form{margin-left:-200px;}
+		.container-fluid .search_area .index_search{width:60%;line-height:24px;}
+	</style>
+	<script>
+	if($(".showAR").size() > 0) {
+		//存在.showAR這個dom做下面的事
+		console.log("yes");
+		console.log(document.location.href);
+		var i_src = $("iframe").attr("src");
+		console.log(i_src);
+	}else {
+		//不存在.showAR這個dom做下面的事
+		console.log("no");
+	}
+	</script>
+</head>
+<body>
+	<div class="jumbotron text-center">
+		<div class="container">
+			<a href=""><h1>skyeyes</h1></a>
+			<div class="member_area">
+				<a href="">login</a>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row search_area">
+			<div class="container">
+				<div class="text-center">
+					<form action="">
+						<input type="text" name="" value="search" class="index_search">
+						<input type="submit" value="送出" class="btn default">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

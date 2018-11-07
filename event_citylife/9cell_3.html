@@ -1,0 +1,91 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>迪士尼</title>
+<link href="03_css/reset.css" media="all" rel="stylesheet" type="text/css" />
+<link href="03_css/uni.css" media="all" rel="stylesheet" type="text/css" />
+<link href="03_css/layer.css" media="all" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function()
+{	/*9cellbtn start*/
+var w = 1920;
+var h = 1050;
+var s = $("#9cell").scrollLeft();
+
+
+$("#btn_left").click(function(){
+	$("#9cell").animate({scrollLeft:-w}, 800);
+	});
+$("#btn_right").click(function(){
+	$("#9cell").animate({scrollLeft:+w}, 800);
+	});
+
+
+	$("#9cell_wrap").attr("width",w*6);
+	$("#9cell_menu").attr("Width",w);
+	
+
+
+$("#9cell_menu_btn_1").click(function(){$("#9cell").animate({scrollLeft:w*1}, 800);});
+$("#9cell_menu_btn_2").click(function(){$("#9cell").animate({scrollLeft:w*2}, 800);});
+$("#9cell_menu_btn_3").click(function(){$("#9cell").animate({scrollLeft:w*3}, 800);});
+$("#9cell_menu_btn_4").click(function(){$("#9cell").animate({scrollLeft:w*4}, 800);});
+$("#9cell_menu_btn_5").click(function(){$("#9cell").animate({scrollLeft:w*5}, 800);});
+
+
+});
+
+</script>
+<title>各式穿搭</title>
+</head>
+
+<body>
+
+
+	<div class="page" id="page28">                   
+		<div id="9cell" style=" float:left; overflow:hidden; width:1903px;height:1050px;">
+			<div id="9cell_wrap" style="width:11520px;">
+				<!--9cell_pic start-->
+				<div class="9cell_pic" style=" float:left;"><img src="02_img/lifecity/bg00.jpg"></div>
+				<div class="9cell_pic" style=" float:left;"><img src="02_img/lifecity/bg01.jpg"></div>
+				<div class="9cell_pic" style=" float:left;"><img src="02_img/lifecity/bg02.jpg"></div>
+				<div class="9cell_pic" style=" float:left;"><img src="02_img/lifecity/bg03.jpg"></div>
+				<div class="9cell_pic" style=" float:left;"><img src="02_img/lifecity/bg04.jpg"></div>
+				<div class="9cell_pic" style=" float:left;"><img src="02_img/lifecity/bg05.jpg"></div>
+				<!--9cell_pic end-->
+			</div>
+            <div style="clear:both;"></div>
+			<div style="width:100%; margin:0; position:relative;">
+		</div>
+	</div><div style="clear:both;"></div> 
+    
+	<div id="9cell_menu" style="float:left; position:absolute; top:0px; left:0px; width:978px;height:80px; z-index:3;" >
+    					<div id="top" style="position:absolute;width:980px;left:50%;margin-left:-20px;"><!--header start-->
+    					<div class="headline">
+    						<a href="http://eshop.fayaque.com.tw/"><img src="02_img/header.png" width="220" height="50" alt="fayaque"/></a>
+   						</div>
+    					</div><div class="clearfloat"></div><!--header end-->
+                        <div id="rlbtn" style="position:absolute; top:470px; width:975px; left:50%;">
+                        	<div id="btn_left" style="float:left; width:44px; height:46px; cursor:pointer; margin-right:880; background-image:url(02_img/btn/left.png)"></div>
+                        	<div id="btn_right" style="float:left; width:44px; height:46px; cursor:pointer; background-image:url(02_img/btn/right.png)"></div>                			
+                        </div>
+            	<div class="9cell_menu_btn_wrap" style="position:absolute;width:980px;top:853px;left:50%;margin-left:-20px;"> <!--9cell_menu start-->
+               			
+                
+                
+                
+			    <div class="9cell_menu_btn" id="9cell_menu_btn_1" style="float:left; width:180px; height:80px; margin-right:20px; cursor:pointer;background-image:url(02_img/btn/btn1.jpg)"></div>
+				<div class="9cell_menu_btn" id="9cell_menu_btn_2" style="float:left; width:180px; height:80px; margin-right:20px; cursor:pointer;background-image:url(02_img/btn/btn2.jpg)"></div>
+				<div class="9cell_menu_btn" id="9cell_menu_btn_3" style="float:left; width:180px; height:80px; margin-right:20px; cursor:pointer;background-image:url(02_img/btn/btn3.jpg)"></div>
+				<div class="9cell_menu_btn" id="9cell_menu_btn_4" style="float:left; width:180px; height:80px; margin-right:20px; cursor:pointer;background-image:url(02_img/btn/btn4.jpg)"></div>
+				<div class="9cell_menu_btn" id="9cell_menu_btn_5" style="float:left; width:180px; height:80px; cursor:pointer;background-image:url(02_img/btn/btn5.jpg)"></div>						
+				<!--9cell_menu end-->                
+                </div>
+				</div><div style="clear:both;"></div>
+
+</body>
+</html>
+

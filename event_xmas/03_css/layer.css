@@ -1,0 +1,53 @@
+/*content內容*/
+
+body				{min-width:1030px;}
+#top				{top:32px;}
+#content_wrap		{margin-top:0px;}
+#bd_wrap			{background-image:url(../02_img/bg.png);	background-position:center top;	background-repeat:no-repeat;	min-width:1030px;/*要記得改哦*/	position:relative;	z-index:1;}
+/*margin-top:0px;	margin-left:0px;	margin-bottom:0px;	margin-right:0px;	cursor:pointer;*/
+.page				{background-repeat:no-repeat;}
+#content0			{height:363px;	position:relative;	margin-left:0px;	margin-right:0px;	margin-top: -28px;	width:980px;}
+	.right			{background-image:url(../02_img/rightbtn.png);	height:242px;	position:absolute;	margin:67px 0px 0px 756px;	width:191px;}
+	.rightbtn		{cursor:pointer;	height:16px;	margin:226px 0px 0px 66px;	position:absolute;	width:57px;}
+#content1			{height:1925px;	position:relative;	margin-left:0px;	margin-right:0px;	width:980px;}
+	.item			{background-repeat:no-repeat;	position:absolute;}
+	.price			{background-repeat:no-repeat;	position:absolute;}
+	.item_1			{background-image:url(../02_img/item/1.png);		height:188px;	margin:0px 0px 0px 360px;		width:272px;}
+	.item_2			{background-image:url(../02_img/item/2.png);		height:179px;	margin:153px 0px 0px 231px;		width:201px;}
+	.item_3			{background-image:url(../02_img/item/3.png);		height:199px;	margin:190px 0px 0px 539px;		width:131px;}
+	.price_1		{background-image:url(../02_img/item/price_1.png);	height:75px;	margin:352px 0px 0px 230px;		width:170px;}
+	
+	.item_4			{background-image:url(../02_img/item/4.png);		height:164px;	margin:452px 0px 0px 90px;		width:142px;}
+	.item_5			{background-image:url(../02_img/item/5.png);		height:165px;	margin:468px 0px 0px 295px;		width:161px;}
+	.item_6			{background-image:url(../02_img/item/6.png);		height:175px;	margin:413px 0px 0px 514px;		width:173px;}
+	.item_7			{background-image:url(../02_img/item/7.png);		height:171px;	margin:394px 0px 0px 702px;		width:171px;}
+	.price_2		{background-image:url(../02_img/item/price_2.png);	height:75px;	margin:653px 0px 0px 97px;		width:262px;}
+	
+	.item_8			{background-image:url(../02_img/item/8.png);		height:181px;	margin:757px 0px 0px 102px;		width:202px;}
+	.item_9			{background-image:url(../02_img/item/9.png);		height:161px;	margin:888px 0px 0px 319px;		width:241px;}
+	.item_10		{background-image:url(../02_img/item/10.png);		height:183px;	margin:683px 0px 0px 378px;		width:221px;}
+	.item_11		{background-image:url(../02_img/item/11.png);		height:183px;	margin:846px 0px 0px 643px;		width:183px;}
+	.item_12		{background-image:url(../02_img/item/12.png);		height:168px;	margin:627px 0px 0px 695px;		width:209px;}
+	.price_3		{background-image:url(../02_img/item/price_3.png);	height:75px;	margin:981px 0px 0px 19px;		width:262px;}
+	
+	.item_13		{background-image:url(../02_img/item/13.png);		height:166px;	margin:1061px 0px 0px 23px;		width:208px;}
+	.item_14		{background-image:url(../02_img/item/14.png);		height:223px;	margin:1160px 0px 0px 175px;	width:131px;}
+	.item_15		{background-image:url(../02_img/item/15.png);		height:178px;	margin:1096px 0px 0px 335px;	width:178px;}
+	.item_16		{background-image:url(../02_img/item/16.png);		height:185px;	margin:1190px 0px 0px 526px;	width:137px;}
+	.item_17		{background-image:url(../02_img/item/17.png);		height:196px;	margin:1045px 0px 0px 691px;	width:125px;}
+	.item_18		{background-image:url(../02_img/item/18.png);		height:172px;	margin:1231px 0px 0px 786px;	width:182px;}
+	.price_4		{background-image:url(../02_img/item/price_4.png);	height:75px;	margin:1389px 0px 0px 20px;		width:236px;}
+	
+	.item_19		{background-image:url(../02_img/item/19.png);		height:190px;	margin:1528px 0px 0px 18px;		width:211px;}
+	.item_20		{background-image:url(../02_img/item/20.png);		height:192px;	margin:1658px 0px 0px 239px;	width:157px;}
+	.item_21		{background-image:url(../02_img/item/21.png);		height:177px;	margin:1423px 0px 0px 282px;	width:151px;}
+	.item_22		{background-image:url(../02_img/item/22.png);		height:160px;	margin:1651px 0px 0px 419px;	width:297px;}
+	.item_23		{background-image:url(../02_img/item/23.png);		height:168px;	margin:1412px 0px 0px 520px;	width:145px;}
+	.item_24		{background-image:url(../02_img/item/24.png);		height:202px;	margin:1465px 0px 0px 750px;	width:213px;}
+	.item_25		{background-image:url(../02_img/item/25.png);		height:184px;	margin:1741px 0px 0px 718px;	width:199px;}
+	.price_5		{background-image:url(../02_img/item/price_5.png);	height:75px;	margin:1802px 0px 0px 24px;		width:170px;}
+
+#content2			{height:171px;	position:relative;	margin-left:25px;	margin-right:25px;	width:980px;}
+	.more			{background-image:url(../02_img/more.png);	background-repeat:no-repeat;	height:53px;	margin:18px 0px 0px 837px;	width:117px;}
+	.gotop			{background-image:url(../02_img/top.png);	background-repeat:no-repeat;	cursor:pointer;	height:89px;	margin:-1px 0px 0px 425px;	width:74px;}
+/*content end*/

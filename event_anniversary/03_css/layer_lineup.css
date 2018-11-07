@@ -1,0 +1,122 @@
+/*全部共用 start*/
+body {
+	}
+#wrap{
+	}
+#topbalckbar{
+	background:#424242;
+	position: absolute;	
+	width:100%;
+	height: 56px;
+	clear:both;
+	}
+#container_980{
+	position:relative;
+	margin:0 auto;
+	width:980px;
+	}
+#contain{
+	}
+.headline{
+	z-index:3;
+	}
+	
+.headline-right{/*fbicon*/
+	width:45px;
+	height:45px;
+	float:right;
+	background-image:url(../02_img/fbicon.png);
+	margin-left:12px;
+	}	
+.headline-right:hover{/*fbicon*/
+	float:right;
+	margin-left:12px;
+	background-image:url(../02_img/fbicon_h.png);
+	}	
+	
+.clearfloat{
+	clear:both;
+	}
+#top{
+	float:left;
+	z-index:3;
+	margin-left:-12px;
+	}
+
+#content{
+	z-index:1;
+	position:relative;
+	top:-50px;
+	margin-bottom:-52px;
+	}
+	
+#bottom{
+	float:left;
+	width:100%;
+	z-index:3;
+	}
+
+#footer{
+	position: relative;	
+	margin-top: 0 auto;
+	height: 80px;
+	clear:both;
+	} 
+	
+#footer{
+	background:#424242;
+}
+.foot_mail{
+	padding:10px 0;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.8em;
+	text-align:center;
+}
+.foot_mail p{
+	letter-spacing:2px;
+	width:100px;
+	margin:0 auto;
+	color:#cccccc;
+	border: 1px solid #CCCCCC;
+    border-radius: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	height: 14px;
+}
+.foot_mail p a ,.fmB1 a{
+	color:#cccccc;
+}
+.foot_mail p a:hover ,.fmB1 a:hover{
+	color:#FF7600;
+}
+.copyright{
+	position:relative;
+	bottom:0;
+	line-height:20px;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.65em;
+	text-align:center;
+	color:#cccccc;
+	border-top:1px solid #6b6b6b;
+	letter-spacing:1px;
+}
+/*全部共用 end*/
+
+/*content內容*/
+#content_wrap	{	position:relative;	width:100%;	height:100%;}
+/*float:left;width:px;height:px;margin-top:px;margin-left:px;margin-bottom:px;margin-right:px;cursor:pointer;*/
+#content0	{	float:left;	width:980px;	height:167px;	margin-top:-50px;}/*第一個用來對齊哦*//*title */
+
+#content1	{	float:left;	width:980px;	height:334px;	margin-bottom:9px;}
+.content1_0	{	float:left;	width:980px;	height:334px;}
+
+#content2	{	float:left;	width:980px;	height:360px;}
+.action		{	float:left;	width:236px;	height:360px;}
+#action_1	{	margin-left:7px;}
+#action_2	{	margin-left:6px;}
+#action_3	{	margin-left:6px;}
+#action_4	{	margin-left:6px;}
+
+#content3	{	float:left;	width:980px;	height:130px;}
+.content3_0	{	cursor:pointer;	height:38px;	margin-left:394px;	margin-top:51px;	width:177px;}
+/*content end*/

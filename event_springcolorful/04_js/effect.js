@@ -1,0 +1,302 @@
+$(document).ready(function()
+{
+	$("#item_wrap_0").css("display","block");
+	$("#item_wrap_1").css("display","none");
+	$("#item_wrap_2").css("display","none");
+	$("#item_wrap_3").css("display","none");
+	$("#item_wrap_4").css("display","none");
+	$("#item_wrap_5").css("display","none");
+	$("#item_wrap_6").css("display","none");
+	$("#item_wrap_7").css("display","none");
+	
+
+
+$(document).mousemove(function(event) 
+{
+		$my_1=event.pageY*0.011;
+		$my_2=event.pageY*0.012;
+		$my_3=event.pageY*0.013;
+		$my_4=event.pageY*0.015;
+		$my_5=event.pageY*0.020;
+		$(".content7").css({"top":1759+$my_1});
+		$(".content6").css({"top":1457+$my_2});
+		$(".content5").css({"top":1239+$my_3});
+		$(".content4").css({"top":978+$my_4});
+		$(".content3").css({"top":885+$my_5});
+		$(".content2").css({"top":636+$my_4});
+		$(".content1").css({"top":345+$my_2});
+		$(".content0").css({"top":150+$my_1});
+});
+
+	
+	
+	//0start
+	$("#demo_0").mouseenter(function(){
+		$("#item_wrap_0").fadeIn(0)
+		$("#item_more_0").fadeIn(500)
+		$("#item_0_1").fadeIn(550)
+		$("#item_0_2").fadeIn(600)
+		$("#item_0_3").fadeIn(650)
+		$("#item_0_4").fadeIn(700)
+		$("#item_0_5").fadeIn(750)
+		$("#item_0_6").fadeIn(800)
+		$("#item_0_line").fadeIn(850)
+		
+		$("#item_wrap_1").hide()
+		$("#item_wrap_2").hide()
+		$("#item_wrap_3").hide()
+		$("#item_wrap_4").hide()
+		$("#item_wrap_5").hide()
+		$("#item_wrap_6").hide()
+		$("#item_wrap_7").hide()
+		
+		});
+	$("#item_wrap_0").mouseleave(function(){
+		$("#item_wrap_0").fadeOut(900)
+		$("#item_more_0").fadeOut(850)
+		$("#item_0_1").fadeOut(800)
+		$("#item_0_2").fadeOut(750)
+		$("#item_0_3").fadeOut(700)
+		$("#item_0_4").fadeOut(650)
+		$("#item_0_5").fadeOut(600)
+		$("#item_0_6").fadeOut(550)
+		$("#item_0_line").fadeOut(500)	
+		
+		});
+	//0end
+	//1start
+	$("#demo_1").mouseenter(function(){
+		$("#item_wrap_1").fadeIn(0)
+		$("#item_more_1").fadeIn(500)
+		$("#item_1_1").fadeIn(550)
+		$("#item_1_2").fadeIn(600)
+		$("#item_1_3").fadeIn(650)
+		$("#item_1_4").fadeIn(700)
+		$("#item_1_5").fadeIn(750)
+		$("#item_1_6").fadeIn(800)
+		$("#item_1_line").fadeIn(850)
+		
+		$("#item_wrap_0").hide()
+		$("#item_wrap_2").hide()
+		$("#item_wrap_3").hide()
+		$("#item_wrap_4").hide()
+		$("#item_wrap_5").hide()
+		$("#item_wrap_6").hide()
+		$("#item_wrap_7").hide()
+		
+		});
+	$("#item_wrap_1").mouseleave(function(){
+		$("#item_wrap_1").fadeOut(900)
+		$("#item_more_1").fadeOut(850)
+		$("#item_1_1").fadeOut(800)
+		$("#item_1_2").fadeOut(750)
+		$("#item_1_3").fadeOut(700)
+		$("#item_1_4").fadeOut(650)
+		$("#item_1_5").fadeOut(600)
+		$("#item_1_6").fadeOut(550)
+		$("#item_1_line").fadeOut(500)	
+		});
+	//1end
+	//2start
+	$("#demo_2").mouseenter(function(){
+		$("#item_wrap_2").fadeIn(0)
+		$("#item_more_2").fadeIn(500)
+		$("#item_2_1").fadeIn(550)
+		$("#item_2_2").fadeIn(600)
+		$("#item_2_3").fadeIn(650)
+		$("#item_2_4").fadeIn(700)
+		$("#item_2_5").fadeIn(750)
+		$("#item_2_6").fadeIn(800)
+		$("#item_2_line").fadeIn(850)
+		$(".content2").css("z-index","4")
+		
+		$("#item_wrap_0").hide()
+		$("#item_wrap_1").hide()
+		$("#item_wrap_3").hide()
+		$("#item_wrap_4").hide()
+		$("#item_wrap_5").hide()
+		$("#item_wrap_6").hide()
+		$("#item_wrap_7").hide()
+		
+		});
+	$("#item_wrap_2").mouseleave(function(){
+		$("#item_wrap_2").fadeOut(900)
+		$("#item_more_2").fadeOut(850)
+		$("#item_2_1").fadeOut(800)
+		$("#item_2_2").fadeOut(750)
+		$("#item_2_3").fadeOut(700)
+		$("#item_2_4").fadeOut(650)
+		$("#item_2_5").fadeOut(600)
+		$("#item_2_6").fadeOut(550)
+		$("#item_2_line").fadeOut(500)
+		});
+	//2end
+	//3start
+	$("#demo_3").mouseenter(function(){
+		$("#item_wrap_3").fadeIn(0)
+		$("#item_more_3").fadeIn(500)
+		$("#item_3_1").fadeIn(550)
+		$("#item_3_2").fadeIn(600)
+		$("#item_3_3").fadeIn(650)
+		$("#item_3_4").fadeIn(700)
+		$("#item_3_5").fadeIn(750)
+		$("#item_3_6").fadeIn(800)
+		$("#item_3_line").fadeIn(850)
+		$(".content3").css("z-index","3")
+		
+		$("#item_wrap_0").hide()
+		$("#item_wrap_1").hide()
+		$("#item_wrap_2").hide()
+		$("#item_wrap_4").hide()
+		$("#item_wrap_5").hide()
+		$("#item_wrap_6").hide()
+		$("#item_wrap_7").hide()
+		
+		});
+	$("#item_wrap_3").mouseleave(function(){
+		$("#item_wrap_3").fadeOut(900)
+		$("#item_more_3").fadeOut(850)
+		$("#item_3_1").fadeOut(800)
+		$("#item_3_2").fadeOut(750)
+		$("#item_3_3").fadeOut(700)
+		$("#item_3_4").fadeOut(650)
+		$("#item_3_5").fadeOut(600)
+		$("#item_3_6").fadeOut(550)
+		$("#item_3_line").fadeOut(500)	
+		});
+	//3end
+	//4start
+	$("#demo_4").mouseenter(function(){
+		$("#item_wrap_4").fadeIn(0)
+		$("#item_more_4").fadeIn(500)
+		$("#item_4_1").fadeIn(550)
+		$("#item_4_2").fadeIn(600)
+		$("#item_4_3").fadeIn(650)
+		$("#item_4_4").fadeIn(700)
+		$("#item_4_5").fadeIn(750)
+		$("#item_4_6").fadeIn(800)
+		$("#item_4_line").fadeIn(850)
+		
+		$("#item_wrap_0").hide()
+		$("#item_wrap_1").hide()
+		$("#item_wrap_2").hide()
+		$("#item_wrap_3").hide()
+		$("#item_wrap_5").hide()
+		$("#item_wrap_6").hide()
+		$("#item_wrap_7").hide()
+		
+		});
+	$("#item_wrap_4").mouseleave(function(){
+		$("#item_wrap_4").fadeOut(900)
+		$("#item_more_4").fadeOut(850)
+		$("#item_4_1").fadeOut(800)
+		$("#item_4_2").fadeOut(750)
+		$("#item_4_3").fadeOut(700)
+		$("#item_4_4").fadeOut(650)
+		$("#item_4_5").fadeOut(600)
+		$("#item_4_6").fadeOut(550)
+		$("#item_4_line").fadeOut(500)	
+		});
+	//4end
+	//5start
+	$("#demo_5").mouseenter(function(){
+		$("#item_wrap_5").fadeIn(0)
+		$("#item_more_5").fadeIn(500)
+		$("#item_5_1").fadeIn(550)
+		$("#item_5_2").fadeIn(600)
+		$("#item_5_3").fadeIn(650)
+		$("#item_5_4").fadeIn(700)
+		$("#item_5_5").fadeIn(750)
+		$("#item_5_6").fadeIn(800)
+		$("#item_5_line").fadeIn(850)
+		
+		$("#item_wrap_0").hide()
+		$("#item_wrap_1").hide()
+		$("#item_wrap_2").hide()
+		$("#item_wrap_3").hide()
+		$("#item_wrap_4").hide()
+		$("#item_wrap_6").hide()
+		$("#item_wrap_7").hide()
+		
+		});
+	$("#item_wrap_5").mouseleave(function(){
+		$("#item_wrap_5").fadeOut(900)
+		$("#item_more_5").fadeOut(850)
+		$("#item_5_1").fadeOut(800)
+		$("#item_5_2").fadeOut(750)
+		$("#item_5_3").fadeOut(700)
+		$("#item_5_4").fadeOut(650)
+		$("#item_5_5").fadeOut(600)
+		$("#item_5_6").fadeOut(550)
+		$("#item_5_line").fadeOut(500)			
+		});
+	//5end
+	//6start
+	$("#demo_6").mouseenter(function(){
+		$("#item_wrap_6").fadeIn(0)
+		$("#item_more_6").fadeIn(500)
+		$("#item_6_1").fadeIn(550)
+		$("#item_6_2").fadeIn(600)
+		$("#item_6_3").fadeIn(650)
+		$("#item_6_4").fadeIn(700)
+		$("#item_6_5").fadeIn(750)
+		$("#item_6_6").fadeIn(800)
+		$("#item_6_line").fadeIn(850)
+		
+		$("#item_wrap_0").hide()
+		$("#item_wrap_1").hide()
+		$("#item_wrap_2").hide()
+		$("#item_wrap_3").hide()
+		$("#item_wrap_4").hide()
+		$("#item_wrap_5").hide()
+		$("#item_wrap_7").hide()
+		
+		});
+	$("#item_wrap_6").mouseleave(function(){
+		$("#item_wrap_6").fadeOut(900)
+		$("#item_more_6").fadeOut(850)
+		$("#item_6_1").fadeOut(800)
+		$("#item_6_2").fadeOut(750)
+		$("#item_6_3").fadeOut(700)
+		$("#item_6_4").fadeOut(650)
+		$("#item_6_5").fadeOut(600)
+		$("#item_6_6").fadeOut(550)
+		$("#item_6_line").fadeOut(500)	
+		
+		$("#item_wrap_0").hide()
+		$("#item_wrap_1").hide()
+		$("#item_wrap_2").hide()
+		$("#item_wrap_3").hide()
+		$("#item_wrap_4").hide()
+		$("#item_wrap_5").hide()
+		$("#item_wrap_6").hide()
+		
+		});
+	//6end
+	//7start
+	$("#demo_7").mouseenter(function(){
+		$("#item_wrap_7").fadeIn(0)
+		$("#item_more_7").fadeIn(500)
+		$("#item_7_1").fadeIn(550)
+		$("#item_7_2").fadeIn(600)
+		$("#item_7_3").fadeIn(650)
+		$("#item_7_4").fadeIn(700)
+		$("#item_7_5").fadeIn(750)
+		$("#item_7_6").fadeIn(800)
+		$("#item_7_line").fadeIn(850)
+		});
+	$("#item_wrap_7").mouseleave(function(){
+		$("#item_wrap_7").fadeOut(900)
+		$("#item_more_7").fadeOut(850)
+		$("#item_7_1").fadeOut(800)
+		$("#item_7_2").fadeOut(750)
+		$("#item_7_3").fadeOut(700)
+		$("#item_7_4").fadeOut(650)
+		$("#item_7_5").fadeOut(600)
+		$("#item_7_6").fadeOut(550)
+		$("#item_7_line").fadeOut(500)	
+		});
+	//7end
+	
+});
+

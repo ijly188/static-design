@@ -1,0 +1,129 @@
+<!--reset w 980/ center hack-->
+
+/*全部共用 start*/
+body {
+	/*background-image:url(../02_img/bg.jpg);*/
+	}
+#wrap{
+	/*position:absolute;*/
+	}
+#container_980{
+	position:relative;
+	margin:0 auto;
+	width:980px;
+	}
+#contain{
+	margin-bottom:-82px;/*footer高度往回壓的PX*/
+	}
+.headline{
+	z-index:4;}
+.clearfloat{
+	clear:both;
+	}
+#top{
+	float:left;
+	z-index:3;
+	margin-left:-12px;
+	/*margin-top:4px;
+	margin-left:-4px;*/
+	}
+	
+#content{
+	z-index:1;
+	position:relative;
+	top:-64px;	
+	}
+
+#bottom{
+	float:left;
+	width:100%;
+	z-index:3;
+	}
+
+#footer{
+	position: relative;	
+	/*margin-top: -64px; /* negative value of footer height */
+	margin-top: 0 auto;
+	height: 82px;
+	clear:both;
+	} 
+	
+#footer{
+	background:#424242;
+}
+.foot_mail{
+	padding:10px 0;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.8em;
+	text-align:center;
+}
+.foot_mail p{
+	letter-spacing:2px;
+	width:100px;
+	margin:0 auto;
+	color:#cccccc;
+	border: 1px solid #CCCCCC;
+    border-radius: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	height: 14px;
+}
+.foot_mail p a ,.fmB1 a{
+	color:#cccccc;
+}
+.foot_mail p a:hover ,.fmB1 a:hover{
+	color:#FF7600;
+}
+.copyright{
+	position:relative;
+	bottom:0;
+	line-height:20px;
+	font-family:"Arial Unicode MS", "微軟正黑體";
+	font-size:0.65em;
+	text-align:center;
+	color:#cccccc;
+	border-top:1px solid #6b6b6b;
+	letter-spacing:1px;
+}
+/*全部共用 end*/
+
+/*content內容*/
+
+.content0	{float:left;	width:980px;	height:461px;	margin-top:14px;	margin-right:0px;	margin-bottom:0px;	margin-left:0px;}
+.content0_0	{float:left;	width:209px;	height:60px;	margin-top:357px;	margin-right:0px;	margin-bottom:44px;	margin-left:120px;	cursor:pointer;}
+.content0_1	{float:left;	width:209px;	height:60px;	margin-top:357px;	margin-right:0px;	margin-bottom:44px;	margin-left:65px;	cursor:pointer;}
+.content0_2	{float:left;	width:220px;	height:60px;	margin-top:357px;	margin-right:94px;	margin-bottom:44px;	margin-left:63px;	cursor:pointer;}
+
+.content1	{float:left;	width:980px;	height:459px;	margin-top:0px;		margin-right:0px;	margin-bottom:0px;	margin-left:0px;}
+.content1_0	{float:left;	width:343px;	height:296px;	margin-top:0px;		margin-right:0px;	margin-bottom:0px;	margin-left:0px;	cursor:pointer;}
+.content1_1	{float:left;	width:343px;	height:120px;	margin-top:296px;	margin-right:0px;	margin-bottom:43px;	margin-left:-343px;	cursor:pointer;}/*icon*/
+.content1_2	{float:left;	width:210px;	height:187px;	margin-top:0px;		margin-right:0px;	margin-bottom:0px;	margin-left:0px;	cursor:pointer;}
+.content1_3	{float:left;	width:207px;	height:187px;	margin-top:0px;		margin-right:0px;	margin-bottom:0px;	margin-left:0px;	cursor:pointer;}
+.content1_4	{float:left;	width:200px;	height:187px;	margin-top:0px;		margin-right:20px;	margin-bottom:0px;	margin-left:0px;	cursor:pointer;}
+.content1_5	{float:left;	width:210px;	height:216px;	margin-top:0px;		margin-right:0px;	margin-bottom:56px;	margin-left:0px;	cursor:pointer;}
+.content1_6	{float:left;	width:207px;	height:216px;	margin-top:0px;		margin-right:0px;	margin-bottom:56px;	margin-left:0px;	cursor:pointer;}
+.content1_7	{float:left;	width:200px;	height:216px;	margin-top:0px;		margin-right:20px;	margin-bottom:56px;	margin-left:0px;	cursor:pointer;}
+
+.content2	{float:left;	width:980px;	height:501px;	margin-top:0px;		margin-right:0px;	margin-bottom:0px;	margin-left:0px;}
+.content2_0	{float:left;	width:201px;	height:221px; 	margin-top:5px;		margin-right:0px;	margin-bottom:0px;	margin-left:23px;	cursor:pointer;}
+.content2_1	{float:left;	width:206px;	height:221px; 	margin-top:5px;		margin-right:0px;	margin-bottom:0px;	margin-left:0px;	cursor:pointer;}
+.content2_2	{float:left;	width:207px;	height:221px; 	margin-top:5px;		margin-right:0px;	margin-bottom:0px;	margin-left:0px;	cursor:pointer;}
+.content2_3	{float:left;	width:343px;	height:121px; 	margin-top:20px;	margin-right:0px;	margin-bottom:45px;	margin-left:0px;	cursor:pointer;}/*icon*/
+.content2_4	{float:left;	width:201px;	height:216px; 	margin-top:226px;	margin-right:0px;	margin-bottom:59px;	margin-left:-957px;	cursor:pointer;}
+.content2_5	{float:left;	width:206px;	height:216px; 	margin-top:226px;	margin-right:0px;	margin-bottom:59px;	margin-left:-756px;	cursor:pointer;}
+.content2_6	{float:left;	width:207px;	height:216px; 	margin-top:226px;	margin-right:0px;	margin-bottom:59px;	margin-left:-550px;	cursor:pointer;}
+.content2_7	{float:left;	width:294px;	height:264px; 	margin-top:0px;		margin-right:20px;	margin-bottom:51px;	margin-left:29px;	cursor:pointer;}
+
+.content3	{float:left;	width:980px;	height:496px;	margin-top:0px;		margin-right:0px;	margin-bottom:0px;	margin-left:0px;}
+.content3_0	{float:left;	width:343px;	height:121px; 	margin-top:27px;	margin-right:0px;	margin-bottom:24px;	margin-left:0px;	cursor:pointer;}/*icon*/
+.content3_1	{float:left;	width:197px;	height:209px;	margin-top:14px;	margin-right:0px;	margin-bottom:0px;	margin-left:0px;	cursor:pointer;}
+.content3_2	{float:left;	width:207px;	height:209px; 	margin-top:14px;	margin-right:0px;	margin-bottom:0px;	margin-left:0px;	cursor:pointer;}
+.content3_3	{float:left;	width:202px;	height:209px;	margin-top:14px;	margin-right:31px;	margin-bottom:0px;	margin-left:0px;	cursor:pointer;}
+.content3_4	{float:left;	width:282px;	height:296px; 	margin-top:-52px;	margin-right:35px;	margin-bottom:27px;	margin-left:23px;	cursor:pointer;}
+.content3_5	{float:left;	width:197px;	height:216px; 	margin-top:0px;	margin-right:0px;	margin-bottom:56px;	margin-left:4px;	cursor:pointer;}
+.content3_6	{float:left;	width:207px;	height:216px; 	margin-top:0px;	margin-right:0px;	margin-bottom:56px;	margin-left:px;	cursor:pointer;}
+.content3_7	{float:left;	width:202px;	height:216px; 	margin-top:0px;	margin-right:27px;	margin-bottom:56px;	margin-left:px;	cursor:pointer;}
+
+.content4	{float:left;	width:980px;	height:200px;	margin-top:0px;		margin-right:0px;	margin-bottom:0px;	margin-left:0px;}
+.content4_0	{float:left;	width:40px;		height:50px; 	margin-top:49px;	margin-right:451px;	margin-bottom:83px;	margin-left:489px;	cursor:pointer;}
+/*content end*/	
